@@ -1,13 +1,29 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom'; 
 
 class Nav extends Component {
     render() {
       return (
-        <div className="nav">
-          <p className="navitem" >Vimal</p>
-          <p className="navitem" >home</p>
-          <p className="navitem" >skill</p>
-        </div>
+        <ul className="nav"> 
+              <li className="navitem"> 
+                <Link to="/">Home</Link> 
+              </li> 
+              <li className="navitem"> 
+                <Link to="/about">About Us</Link> 
+              </li> 
+              <li className="navitem"> 
+                <Link to="/contact">Contact Us</Link> 
+              </li> 
+              <li className="navitem"> 
+                <Link to="/experience">experience</Link> 
+              </li> 
+              <li className="navitem"> 
+                <Link to="/project">projects</Link> 
+              </li> 
+              <li className="navitem"> 
+                <Link to="/skill">skills</Link> 
+              </li> 
+        </ul> 
       );
     }
   }

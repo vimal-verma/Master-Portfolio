@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 import Nav from '../components/Nav';
 
-class Home extends Component {
+class NotFound extends Component {
     render() {
       return (
         <div>
         <Nav/>
-          <h1>Home</h1>
+          <h1>404</h1>
           
         </div>
       );
     }
   }
   
-  export default Home;
+  export default NotFound;
