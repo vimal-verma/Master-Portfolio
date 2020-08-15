@@ -1,16 +1,19 @@
 import React, { Component } from "react";
 import Nav from '../components/Nav';
+import Footer from '../components/Footer';
+import error from '../assets/img/pixeltrue-error-1.svg';
+import './NotFound.css';
 
 class NotFound extends Component {
     render() {
       return (
-        <div>
+        <div className="footer">
         <Nav/>
-          <h1>404</h1>
-          
+          <img src={error} alt="404" />
+          <Footer/>
         </div>
       );
     }
   }
   
-  export default NotFound;
+  export default  NotFound;

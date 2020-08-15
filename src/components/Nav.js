@@ -1,31 +1,102 @@
 import React, { Component } from "react";
-import { Link } from 'react-router-dom'; 
+import { NavLink,Link } from 'react-router-dom'; 
+import vimal from '../assets/img/vimal.svg'
+import './nav.css'
 
 class Nav extends Component {
     render() {
       return (
-        <ul className="nav"> 
-              <li className="navitem"> 
-                <Link to="/">Home</Link> 
-              </li> 
-              <li className="navitem"> 
-                <Link to="/about">About Us</Link> 
-              </li> 
-              <li className="navitem"> 
-                <Link to="/contact">Contact Us</Link> 
-              </li> 
-              <li className="navitem"> 
-                <Link to="/experience">experience</Link> 
-              </li> 
-              <li className="navitem"> 
-                <Link to="/project">projects</Link> 
-              </li> 
-              <li className="navitem"> 
-                <Link to="/skill">skills</Link> 
-              </li> 
-        </ul> 
+        <div>
+          <header className="header">
+            <NavLink to="/" tag={Link} className="logo">
+            <img src={vimal} alt="vimal" />
+            </NavLink>
+            <input className="menu-btn" type="checkbox" id="menu-btn" />
+            <label className="menu-icon" htmlFor="menu-btn">
+              <span className="navicon"></span>
+            </label>
+            <ul className="menu">
+              <li>
+                <NavLink
+                  to="/"
+                  tag={Link}
+                  activeStyle={{ fontWeight: "bold" }}
+                  onMouseEnter={(event) => onMouseEnter(event)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  Home
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/about"
+                  tag={Link}
+                  activeStyle={{ fontWeight: "bold" }}
+                  onMouseEnter={(event) => onMouseEnter(event)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  About
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/experience"
+                  tag={Link}
+                  activeStyle={{ fontWeight: "bold" }}
+                  onMouseEnter={(event) => onMouseEnter(event)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  Experience
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/projects"
+                  tag={Link}
+                  activeStyle={{ fontWeight: "bold" }}
+                  onMouseEnter={(event) => onMouseEnter(event)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  Projects
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/Skill"
+                  tag={Link}
+                  activeStyle={{ fontWeight: "bold" }}
+                  onMouseEnter={(event) => onMouseEnter(event)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  Skill
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/contact"
+                  tag={Link}
+                  activeStyle={{ fontWeight: "bold" }}
+                  onMouseEnter={(event) => onMouseEnter(event)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  Contact Me
+                </NavLink>
+              </li>
+            </ul>
+          </header>
+        </div>
       );
     }
   }
   
   export default Nav;
+  const onMouseEnter = (event, color) => {
+    const el = event.target;
+    el.style.fontWeight = 'bold';
+  };
+  
+  const onMouseOut = (event) => {
+    const el = event.target;
+    el.style.fontWeight = 'normal';
+  };
+  

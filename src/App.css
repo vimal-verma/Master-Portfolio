@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #edf9fe;
 }
 
 .App-logo {
@@ -35,12 +36,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-.nav{
-
-  display: flex;
-}
-.navitem{
-  background-color: red;
-  margin: 10px;
 }
