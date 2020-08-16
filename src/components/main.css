@@ -1,15 +1,15 @@
 .main{
     display: flex;
 }
-.left{
+.text-part{
     width: 40vw;
     display: block;
 }
-.left .text{
+.text-part .text{
     margin: 10%;
     margin-top: 25%;
 }
-.right{
+.img-part{
     width: 60vw;
 }
 @media (max-width: 768px)  {
@@ -17,13 +17,21 @@
         flex-direction: column;
         flex-flow: column-reverse;
     }
-    .left{
+    .text-part{
         width: 100vw;
     }
-    .left .text{
+    .text-part .text{
         margin-top: 0%;
     }
-    .right{
+    .img-part{
         width: 100vw;
     }
+}
+.button{
+    background-color: aqua;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
 }
