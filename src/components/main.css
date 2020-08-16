@@ -1,0 +1,29 @@
+.main{
+    display: flex;
+}
+.left{
+    width: 40vw;
+    display: block;
+}
+.left .text{
+    margin: 10%;
+    margin-top: 25%;
+}
+.right{
+    width: 60vw;
+}
+@media (max-width: 768px)  {
+    .main{
+        flex-direction: column;
+        flex-flow: column-reverse;
+    }
+    .left{
+        width: 100vw;
+    }
+    .left .text{
+        margin-top: 0%;
+    }
+    .right{
+        width: 100vw;
+    }
+}

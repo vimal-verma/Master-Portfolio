@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 import Nav from '../components/Nav';
+import Main from '../components/Main'
+import Footer from '../components/Footer'
 
 class Home extends Component {
     render() {
       return (
         <div>
         <Nav/>
-          <h1>Home</h1>
-          
+        <Main />
+        <Footer/>
         </div>
       );
     }
