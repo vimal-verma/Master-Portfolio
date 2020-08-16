@@ -1,5 +1,7 @@
 .main{
     display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .text-part{
     width: 40vw;
@@ -7,7 +9,7 @@
 }
 .text-part .text{
     margin: 10%;
-    margin-top: 25%;
+    margin-top: 10%;
 }
 .img-part{
     width: 60vw;

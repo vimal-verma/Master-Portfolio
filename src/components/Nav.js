@@ -40,13 +40,13 @@ class Nav extends Component {
               </li>
               <li>
                 <NavLink
-                  to="/experience"
+                  to="/education"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   onMouseEnter={(event) => onMouseEnter(event)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Experience
+                  Education
                 </NavLink>
               </li>
               <li>
