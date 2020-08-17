@@ -14,7 +14,7 @@ class Main extends Component {
           <div className="main">
           <div className="text-part">
             <div className="text">
-              <h1>Vimal Kumar</h1>
+              <h1>Hi, I'm Vimal Kumar</h1>
               <p>I'm a student pursuing Bachelors's in Computer Science 🎓 from IIIT Ranchi 🏛️. I'm a passionate learner who's always willing to learn and work across technologies and domains 💡. I love to explore new technologies and leverage 🌟. Apart from that I also love to guide and mentor newbies 👨🏻‍💻. I'm currently into Web Development 🕸️ and working on my MERN Website</p>
               <Sm />
             </div>
@@ -31,7 +31,9 @@ class Main extends Component {
           <div className="text-part">
             <div className="text">
               <h2>Full Stack Development</h2>
-              <p>I'm a student pursuing Bachelors's in Computer Science 🎓 from IIIT Ranchi 🏛️. I'm a passionate learner who's always willing to learn and work across technologies and domains 💡. I love to explore new technologies and leverage 🌟. Apart from that I also love to guide and mentor newbies 👨🏻‍💻. I'm currently into Web Development 🕸️ and working on my MERN Website</p>
+              <p> ⚡ Building resposive website front end using React-Redux</p>
+              <p> ⚡ Developing mobile applications using Flutter</p>
+              <p> ⚡ Creating application backend in Node & Express</p>
               <DevTool />
             </div>
           </div>
@@ -40,7 +42,9 @@ class Main extends Component {
           <div className="text-part">
             <div className="text">
               <h2>Design</h2>
-              <p>I'm a student pursuing Bachelors's in Computer Science 🎓 from IIIT Ranchi 🏛️. I'm a passionate learner who's always willing to learn and work across technologies and domains 💡. I love to explore new technologies and leverage 🌟. Apart from that I also love to guide and mentor newbies 👨🏻‍💻. I'm currently into Web Development 🕸️ and working on my MERN Website</p>
+              <p>⚡ Designing attractive user interface for mobile and web applications</p>
+              <p>⚡ Customizing logo designs</p>
+              <p>⚡ Editing video</p>
               <DesignTool />
             </div>
           </div>

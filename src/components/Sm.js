@@ -13,14 +13,14 @@ class Sm extends Component {
     render() {
       return (
         <div className="sm">
-            <a className="sm-item" href="https://facebook.com"><img src={facebook} alt="facebook" /></a>
-            <a className="sm-item" href="https://facebook.com"><img src={twitter} alt="twitter" /></a>
-            <a className="sm-item" href="https://facebook.com"><img src={linkedin} alt="linkedin" /></a>
-            <a className="sm-item" href="https://facebook.com"><img src={slack} alt="slack" /></a>
-            <a className="sm-item" href="https://facebook.com"><img src={dev} alt="dev" /></a>
-            <a className="sm-item" href="https://facebook.com"><img src={github} alt="github" /></a>
-            <a className="sm-item" href="https://facebook.com"><img src={gitlab} alt="gitlab" /></a>
-            <a className="sm-item" href="https://facebook.com"><img src={gmail} alt="gmail" /></a>
+            <a className="sm-item" href="https://facebook.com/vimalverma558"><img src={facebook} alt="facebook" /></a>
+            <a className="sm-item" href="https://twitter.com/vimalverma558"><img src={twitter} alt="twitter" /></a>
+            <a className="sm-item" href="https://www.linkedin.com/in/vimalverma558/"><img src={linkedin} alt="linkedin" /></a>
+            <a className="sm-item" href="https://letskhabar.github.io"><img src={slack} alt="slack" /></a>
+            <a className="sm-item" href="https://dev.to/vimal"><img src={dev} alt="dev" /></a>
+            <a className="sm-item" href="https://github.com/vimalverma558"><img src={github} alt="github" /></a>
+            <a className="sm-item" href="https://gitlab.com/vimalverma"><img src={gitlab} alt="gitlab" /></a>
+            <a className="sm-item" href="mailto:kumarvimal558@gmail.com"><img src={gmail} alt="gmail" /></a>
         </div>
       );
     }
