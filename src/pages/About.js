@@ -13,12 +13,12 @@ class About extends Component {
           <div className="text-part" >
           <div className="text">
               <h1>Hi, I'm Vimal Kumar</h1>
-              <p>⚡ I'm a student pursuing Bachelors's in Computer Science 🎓 from IIIT Ranchi 🏛️</p>
-              <p>⚡ I’m currently learning Full Stack Development.</p>
-              <p>⚡ I’m currently working with Node.js, Express.js, React, Mongodb, Javascript, Flutter, etc</p>
-              <p>⚡ Fun fact: 'Equal is Not Always Equal in Javascript'</p>
-              <p>⚡ I am From Makhdumpur, Jehanabad (Bihar)</p>
-              <p>⚡ I am available on almost every social media. You can message me</p>
+              <p><span role="img" aria-label="Heart">⚡</span> I'm a student pursuing Bachelors's in Computer Science <span role="img" aria-label="Heart">🎓</span> from IIIT Ranchi 🏛️</p>
+              <p><span role="img" aria-label="Heart">⚡</span> I’m currently learning Full Stack Development.</p>
+              <p><span role="img" aria-label="Heart">⚡</span> I’m currently working with Node.js, Express.js, React, Mongodb, Javascript, Flutter, etc</p>
+              <p><span role="img" aria-label="Heart">⚡</span> Fun fact: 'Equal is Not Always Equal in Javascript'</p>
+              <p><span role="img" aria-label="Heart">⚡</span> I am From Makhdumpur, Jehanabad (Bihar)</p>
+              <p><span role="img" aria-label="Heart">⚡</span> I am available on almost every social media. You can message me</p>
               <Sm />
             </div>
           </div>

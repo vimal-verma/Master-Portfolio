@@ -14,9 +14,9 @@ class Contact extends Component {
           <div className="text-part" >
           <div className="text">
           <h1>Hi, I'm Vimal Kumar</h1>
-              <p>⚡ I'm a student pursuing Bachelors's in Computer Science 🎓 from IIIT Ranchi 🏛️</p>
-              <p>⚡ I am From Makhdumpur, Jehanabad (Bihar)</p>
-              <p>⚡ I am available on almost every social media. You can message me</p>
+              <p><span role="img" aria-label="Heart">⚡</span> I'm a student pursuing Bachelors's in Computer Science <span role="img" aria-label="Heart">🎓</span> from IIIT Ranchi <span role="img" aria-label="Heart">⚡🏛️</span></p>
+              <p><span role="img" aria-label="Heart">⚡</span> I am From Makhdumpur, Jehanabad (Bihar)</p>
+              <p><span role="img" aria-label="Heart">⚡</span> I am available on almost every social media. You can message me</p>
               <Sm />
             </div>
           </div>

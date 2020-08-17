@@ -14,11 +14,11 @@ class Education extends Component {
           <div className="text">
             <h1>Hi, I'm Vimal Kumar</h1>
             <div className="edu">
-              <h3 className="edu-item1">⚡ High School Makhdumpur</h3>
+              <h3 className="edu-item1"><span role="img" aria-label="Heart">⚡</span> High School Makhdumpur</h3>
               <p className="edu-item2">10th in 2015</p>
-              <h3 className="edu-item1">⚡ Gaya Evening College, Gaya</h3>
+              <h3 className="edu-item1"><span role="img" aria-label="Heart">⚡</span> Gaya Evening College, Gaya</h3>
               <p className="edu-item2">12th in 2017</p>
-              <h3 className="edu-item1">⚡ Indian Institute of Information Technology Ranchi</h3>
+              <h3 className="edu-item1"><span role="img" aria-label="Heart">⚡</span> Indian Institute of Information Technology Ranchi</h3>
               <p className="edu-item2">CSE ( B.Tech ) From 2018</p>
             </div>
             <br/>

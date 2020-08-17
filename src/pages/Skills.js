@@ -13,9 +13,9 @@ class Skills extends Component {
           <div className="main">
           <div className="text-part" >
           <div className="text">
-          <h1>⚡ Full Stack Development</h1>
+          <h1><span role="img" aria-label="Heart">⚡</span> Full Stack Development</h1>
           <DevTool />
-          <h1>⚡ Design</h1>
+          <h1><span role="img" aria-label="Heart">⚡</span> Design</h1>
           <Designtool />
             </div>
           </div>
