@@ -2,6 +2,7 @@
   text-align: center;
   background-color: #edf9fe;
   min-height: 100vh;
+  font-family: 'LibreBaskerville-Bold';
 }
 
 .App-logo {
@@ -37,4 +38,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+@font-face {
+  font-family: 'LibreBaskerville-Italic';
+  src: local('MyFont'), url(./assets/fonts/LibreBaskerville-Italic.ttf) format('woff');
+}
+@font-face {
+  font-family: 'LibreBaskerville-Bold';
+  src: local('MyFont'), url(./assets/fonts/LibreBaskerville-Bold.ttf) format('woff');
+}
+@font-face {
+  font-family: 'LibreBaskerville-Regular';
+  src: local('MyFont'), url(./assets/fonts/LibreBaskerville-Regular.ttf) format('woff');
 }

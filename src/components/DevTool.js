@@ -15,7 +15,7 @@ import './tool.css'
 class Tool extends Component {
     render() {
       return (
-        <div className="Tool">
+        <div className="Tool Tool-inline">
              <img className="Tool-item" src={html} alt="html" />  
              <img className="Tool-item" src={css3} alt="css" />  
              <img className="Tool-item" src={javascript} alt="javascript" />  

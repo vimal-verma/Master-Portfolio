@@ -9,7 +9,7 @@ import './tool.css'
 class Tool extends Component {
     render() {
       return (
-        <div className="Tool">
+        <div className="Tool Tool-inline">
              <img className="Tool-item" src={figma} alt="figma" />  
              <img className="Tool-item" src={photoshop} alt="phoroshop" />  
              <img className="Tool-item" src={premiere} alt="premiere" />  

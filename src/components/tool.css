@@ -2,6 +2,15 @@
     width: 80px;
     margin: 4px;
 }
-.Tool{
+.Tool-inline{
     display: inline;
+}
+.Tool-item{
+    opacity: 1;
+    transition: opacity 2s, transform 0.5s, scale 0.2s;
+}
+.Tool :hover{
+    opacity: 0.5;
+    transform: rotate(10deg);
+    scale: 1.05;
 }

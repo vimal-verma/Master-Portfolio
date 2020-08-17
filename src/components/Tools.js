@@ -6,7 +6,7 @@ import DesignTool from './DesignTool'
 class Tool extends Component {
     render() {
       return (
-        <div className="Tool">
+        <div className="Tool-inline">
              <DevTool />
              <DesignTool /> 
         </div>
