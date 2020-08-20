@@ -5,6 +5,7 @@ import webde from '../assets/img/web-design.svg';
 import Sm from './Sm';
 import DevTool from './DevTool';
 import DesignTool from './DesignTool';
+import { greeting } from '../Name'
 import './main.css'
 
 class Main extends Component {
@@ -14,8 +15,8 @@ class Main extends Component {
           <div className="main">
           <div className="text-part">
             <div className="text">
-              <h1>Hi, I'm Vimal Kumar</h1>
-              <p>I'm a student pursuing Bachelors's in Computer Science <span role="img" aria-label="Heart">🎓</span> from IIIT Ranchi <span role="img" aria-label="Heart">🏛️</span>. I'm a passionate learner who's always willing to learn and work across technologies and domains <span role="img" aria-label="Heart">💡</span>. I love to explore new technologies and leverage <span role="img" aria-label="Heart">🌟</span>. Apart from that I also love to guide and mentor newbies <span role="img" aria-label="Heart">👨🏻‍💻</span>. I'm currently into Web Development <span role="img" aria-label="Heart">🕸️</span> and working on my MERN Website</p>
+              <h1>Hi, I'm { greeting.title } </h1>
+              <p> { greeting.subTitle } </p>
               <Sm />
             </div>
           </div>
