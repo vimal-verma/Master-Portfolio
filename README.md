@@ -8,9 +8,9 @@
 # Master-Portfolio
 - A clean, beautiful, responsive and 100% customizable portfolio template for Developers!
 - The website is completely built on `react-js` framework of `javascript`🔥.
-- In this project, there are basically Personal Information that you need to change to customize this to anyone else's portfolio: 
-- You will find `src/Name.js` file which contains the complete information about the user. The file looks something like below:
--
+- In this project, there are basically Personal Information that you need to change to customize this to anyone else's portfolio
+- You will find `src/Name.js` file which contains the complete information about the user. The file looks something like below
+- 
     ``` 
     const greeting = {
         title: "Your Name",
@@ -39,6 +39,9 @@
 # You can Customize it to make your own portfolio by Two Method ✏️
 - [Using Netfify deploy](#using-netlify-deploy)
 - [by Fork or Import this repository](#by-fork-or-Import-this-repository)
+
+[![Run on Repl.it](https://repl.it/badge/github/vimalverma558/Master-Portfolio)](https://repl.it/github/vimalverma558/Master-Portfolio)
+
 
 ## Using Netlify deploy
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/vimalverma558/Master-Portfolio)
