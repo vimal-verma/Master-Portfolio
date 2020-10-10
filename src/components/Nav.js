@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { NavLink,Link } from 'react-router-dom'; 
-import vimal from '../assets/img/vimal.svg'
+import { greeting } from '../Name'
 import './nav.css'
 
 class Nav extends Component {
@@ -9,7 +9,7 @@ class Nav extends Component {
         <div>
           <header className="header">
             <NavLink to="/" tag={Link} className="logo">
-            <img src={vimal} alt="vimal" />
+            <h2>{greeting.title}</h2>
             </NavLink>
             <input className="menu-btn" type="checkbox" id="menu-btn" />
             <label className="menu-icon" htmlFor="menu-btn">

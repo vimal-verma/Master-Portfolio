@@ -11,12 +11,15 @@ const socialMedia = {
     github: "Your github link",
     gitlab: "Your gitlab link",
     devto: "Your devto link",
-    mailto: "mailto:Your mail"
+    mailto: "mailto:Your mail",
+    linkedin: "Your linkedin link"
 };
-const About = {
+const about = {
     School: "Your School Name",
     College: "Your College Name",
     university: "Your university Name",
+    department: "your department", // cse
+    course: "Your course", // B.tech
     Home: "Your Home city"
 };
 
@@ -36,7 +39,7 @@ const Project = {
 export {
     greeting,
     socialMedia,
-    About,
+    about,
     Skill,
     Project
 };

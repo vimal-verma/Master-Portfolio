@@ -27,7 +27,7 @@
         devto: "Your devto link",
         mailto: "mailto:Your mail"
     };
-    const About = {
+    const about = {
         School: "Your School Name",
         College: "Your College Name",
         university: "Your university Name",

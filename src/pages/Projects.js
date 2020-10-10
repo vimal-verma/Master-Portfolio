@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Nav from '../components/Nav';
 import Footer from '../components/Footer'
 import project from '../assets/img/project.svg'
-import Card from '../components/Card'
+// import Card from '../components/Card'
 
 class Project extends Component {
     render() {
@@ -25,7 +25,7 @@ class Project extends Component {
           </div>
           <br/>
           <h1>My Project Sample</h1>
-          <Card />
+          {/* <Card /> */}
           <Footer/>
         </div>
       );
