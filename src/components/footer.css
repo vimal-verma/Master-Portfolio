@@ -1,7 +1,9 @@
 .foot{
     bottom: 0;
-
 }
 span{
     color: red;
+}
+a{
+    text-decoration: none;
 }

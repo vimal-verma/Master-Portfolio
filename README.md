@@ -1,4 +1,10 @@
 [![Master-Portfolio](src/assets/img/Master-Portfolio.png)](https://github.com/vimalverma558/Master-Portfolio)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ff93814b-ada6-4afa-9055-2b35043eb36c/deploy-status)](https://app.netlify.com/sites/vima/deploys)
+[![GitHub forks](https://img.shields.io/github/forks/vimalverma558/Master-Portfolio?style=social)](https://github.com/vimalverma558/Master-Portfolio/network/members)
+[![GitHub Repo stars](https://img.shields.io/github/stars/vimalverma558/Master-Portfolio?style=social)](https://github.com/vimalverma558/Master-Portfolio/stargazers)
+
+
 # Master-Portfolio
 - A clean, beautiful, responsive and 100% customizable portfolio template for Developers!
 - The website is completely built on `react-js` framework of `javascript`🔥.
@@ -31,10 +37,10 @@
 
 
 # You can Customize it to make your own portfolio by Two Method ✏️
-- [Using Netfify deploy](#Using-Netfify-deploy)
-- [by Fork or Import this repository](#by-Fork-or-Import-this-repository)
+- [Using Netfify deploy](#using-netlify-deploy)
+- [by Fork or Import this repository](#by-fork-or-Import-this-repository)
 
-## Using Netfify deploy
+## Using Netlify deploy
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/vimalverma558/Master-Portfolio)
 - Click on Deploy button ☝️
 - <details>
@@ -79,5 +85,6 @@
 
 ## References 👏🏻
 - Some Design and Implementation Ideas are taken from [ashutosh1919/masterPortfolio](https://github.com/ashutosh1919/masterPortfolio)
-- Mp Logo, art Customized by Vimal and icon by icon8
-- contributors photo Made with [contributors-img](https://contributors-img.web.app).
+- Mp Logo, art Customized by [Vimal](https://github.com/vimalverma558) and icon by icon8
+- contributors image Made with [contributors-img](https://contributors-img.web.app).
+- MIT License 
