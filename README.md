@@ -1,4 +1,4 @@
-[![Master-Portfolio](src/assets/img/Master-portfolio.svg)](https://github.com/vimalverma558/Master-Portfolio)
+[![Master-Portfolio](src/assets/img/Master-Portfolio.png)](https://github.com/vimalverma558/Master-Portfolio)
 # Master-Portfolio
 - A clean, beautiful, responsive and 100% customizable portfolio template for Developers!
 - The website is completely built on `react-js` framework of `javascript`🔥.
