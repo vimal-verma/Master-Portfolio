@@ -2,29 +2,29 @@ const greeting = {
     title: "Your Name",
     logo_name: "Name",
     subTitle:
-      "subTitle subTitle subTitle subTitle subTitle subTitle subTitle subTitle subTitle subTitle subTitle.",
-  };
+    "subTitle."
+};
 const socialMedia = {
-    facebook: "https://www.facebook.com/vimalverma558",
-    twitter: "https://www.facebook.com/vimalverma558",
-    instagram: "https://www.facebook.com/vimalverma558",
-    github: "https://www.facebook.com/vimalverma558",
-    gitlab: "https://www.facebook.com/vimalverma558",
-    devto: "https://www.facebook.com/vimalverma558",
-    mailto: "mailto:vimalverma558@live.com"
-}
+    facebook: "Your facebook link",
+    twitter: "Your twitter link",
+    instagram: "Your instagram link",
+    github: "Your github link",
+    gitlab: "Your gitlab link",
+    devto: "Your devto link",
+    mailto: "mailto:Your mail"
+};
 const About = {
-    School: "https://www.facebook.com/vimalverma558",
-    College: "https://www.facebook.com/vimalverma558",
-    university: "https://www.facebook.com/vimalverma558",
-    Home: "https://www.facebook.com/vimalverma558"
-}
+    School: "Your School Name",
+    College: "Your College Name",
+    university: "Your university Name",
+    Home: "Your Home city"
+};
 
 const Skill = {
     Html: true,
     css: true,
     js: true,
-    
+    node: false
 }
 const Project = {
     
