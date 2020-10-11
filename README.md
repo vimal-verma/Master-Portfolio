@@ -9,6 +9,8 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/vimalverma558/master-portfolio)
 ![GitHub issues](https://img.shields.io/github/issues/vimalverma558/Master-portfolio)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fvima.netlify.app%2F)
+[![Run on Repl.it](https://repl.it/badge/github/vimalverma558/Master-Portfolio)](https://repl.it/github/vimalverma558/Master-Portfolio)
+
 
 
 
@@ -40,14 +42,25 @@
         university: "Your university Name",
         Home: "Your Home city"
     };
+    const projects = [
+    {
+        id: "1",
+        name: "project 1",
+        Description: "this is Description",
+        Code_Link: "this is code link",
+        Live_link: "this is Live link",
+        tool_used: "html,css,js"
+    },
+    .........
+]
     ```
 
 
-# You can Customize it to make your own portfolio by Two Method ✏️
+# You can Customize it to make your own portfolio by Three Method ✏️
 - [Using Netfify deploy](#using-netlify-deploy)
+- [Using Vercel deploy](#using-vercel-deploy)
 - [by Fork or Import this repository](#by-fork-or-Import-this-repository)
 
-[![Run on Repl.it](https://repl.it/badge/github/vimalverma558/Master-Portfolio)](https://repl.it/github/vimalverma558/Master-Portfolio)
 
 
 ## Using Netlify deploy
@@ -72,6 +85,36 @@
 - Those step ☝️ create a repository in your github account, go to that repository
 - Edit `src/Name.js` 
 - Commit change and push 🎉 Your Portfolio website is ready.🥳
+
+
+## Using Vercel deploy
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fvimalverma558%2FMaster-Portfolio)
+- Click on Deploy button ☝️
+- <details>
+  <summary>Type a Project name and click on continue</summary>
+  <img alt="m1" src="src/assets/img/v1.png" />
+  </details>
+- <details>
+  <summary>Install Vercel for Github(If not already) </summary>
+  <img alt="m2" src="src/assets/img/v2.png" />
+  </details>
+- <details>
+  <summary>Chose a github repository name and click on continue</summary>
+  <img alt="m3" src="src/assets/img/v3.png" />
+  </details>
+- <details>
+  <summary>Verify Framework preset is Create React App and Click on Deploy</summary>
+  <img alt="m4" src="src/assets/img/v4.png" />
+  </details> 
+- <details>
+  <summary>Your portfolio website is live 🚀</summary>
+  <img alt="m4" src="src/assets/img/v5.png" />
+  </details> 
+- Those step ☝️ create a repository in your github account, go to that repository
+- Edit `src/Name.js` 
+- Commit change and push 🎉 Your Portfolio website is ready.🥳
+
+
 
 
 ## by Fork or Import this repository

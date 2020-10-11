@@ -1,7 +1,21 @@
 {
-  "name": "vimal-react",
-  "version": "0.1.0",
+  "name": "master-portfolio",
+  "version": "0.1.1",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vimalverma558/master-portfolio.git"
+  },
+  "keywords": [
+    "master-portfolio",
+    "portfolio",
+    "portfolio-template"
+  ],
+  "author": "vimalverma58",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vimalverma558/master-portfolio/issues"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
