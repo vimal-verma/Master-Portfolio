@@ -29,9 +29,32 @@ const Skill = {
     js: true,
     node: false
 }
-const Project = {
-    
-}
+const projects = [
+    {
+        id: "1",
+        name: "project 1",
+        Description: "this is Description",
+        Code_Link: "this is code link",
+        Live_link: "this is Live link",
+        tool_used: "html,css,js"
+    },
+    {
+        id: "2",
+        name: "project 2",
+        Description: "this is Description",
+        Code_Link: "this is code link",
+        Live_link: "this is Live link",
+        tool_used: "html,css,js"
+    },
+    {
+        id: "3",
+        name: "project 3",
+        Description: "this is Description",
+        Code_Link: "this is code link",
+        Live_link: "this is Live link",
+        tool_used: "html,css,js"
+    }
+]
 
 
 
@@ -41,5 +64,5 @@ export {
     socialMedia,
     about,
     Skill,
-    Project
+    projects
 };

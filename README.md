@@ -1,8 +1,15 @@
-[![Master-Portfolio](src/assets/img/Master-Portfolio.png)](https://github.com/vimalverma558/Master-Portfolio)
+[![Master-Portfolio](src/assets/img/mplogo.png)](https://github.com/vimalverma558/Master-Portfolio)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ff93814b-ada6-4afa-9055-2b35043eb36c/deploy-status)](https://app.netlify.com/sites/vima/deploys)
 [![GitHub forks](https://img.shields.io/github/forks/vimalverma558/Master-Portfolio?style=social)](https://github.com/vimalverma558/Master-Portfolio/network/members)
 [![GitHub Repo stars](https://img.shields.io/github/stars/vimalverma558/Master-Portfolio?style=social)](https://github.com/vimalverma558/Master-Portfolio/stargazers)
+[![HitCount](http://hits.dwyl.com/vimalverma558/Master-Portfolio.svg)](http://hits.dwyl.com/vimalverma558/Master-Portfolio)
+[![GitHub](https://img.shields.io/github/license/Vimalverma558/Master-portfolio)](https://github.com/vimalverma558/Master-Portfolio/blob/master/LICENSE)
+![GitHub top language](https://img.shields.io/github/languages/top/vimalverma558/master-portfolio)
+![GitHub repo size](https://img.shields.io/github/repo-size/vimalverma558/master-portfolio)
+![GitHub issues](https://img.shields.io/github/issues/vimalverma558/Master-portfolio)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fvima.netlify.app%2F)
+
 
 
 # Master-Portfolio
