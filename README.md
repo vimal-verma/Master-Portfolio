@@ -52,14 +52,14 @@
         tool_used: "html,css,js"
     },
     .........
-]
+    ]
     ```
 
 
 # You can Customize it to make your own portfolio by Three Method ✏️
 - [Using Netfify deploy](#using-netlify-deploy)
 - [Using Vercel deploy](#using-vercel-deploy)
-- [by Fork or Import this repository](#by-fork-or-Import-this-repository)
+- [Using gh-pages](#using-gh-pages)
 
 
 
@@ -117,13 +117,17 @@
 
 
 
-## by Fork or Import this repository
+## Using gh-pages
 - Fork or import [this repository](https://github.com/vimalverma558/Master-Portfolio)
+- clone `git clone https://github.com/<your-github-username>/Master-Portfolio`
+- To download required dependencies to your system, navigate to the directory where the cloned repository resides and execute following command: `npm install`
+- change "homepage " to `https://<your-github-username>.github.io/Master-Portfolio` in `package.json` 
 - Edit `src/Name.js` 
+- You can check it using `npm start`, it will open the website locally on your browser.
 - Commit change and push.
-- Once you are done with your setup and have successfully completed all steps above, you need to put your website online!
-- I highly recommend using [Netlify](https://www.netlify.com/) to achieve this the EASIEST WAY.
-
+- Once you are done with your setup and have successfully completed all steps above, 
+- Run `npm run deploy` to build and create a branch called `gh-pages`. It will push the build files to that branch.
+-  🎉 Your Portfolio website is ready.🥳 And live at `https://<your-github-username>.github.io/Master-Portfolio`.
 
 
 
