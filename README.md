@@ -13,6 +13,10 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/vimalverma558/master-portfolio)
 [![Run on Repl.it](https://repl.it/badge/github/vimalverma558/Master-Portfolio)](https://repl.it/github/vimalverma558/Master-Portfolio)
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/vimalverma558/Master-Portfolio)
+[![Website](https://img.shields.io/website?style=for-the-badge&up_message=Demo&url=https%3A%2F%2Fvima.netlify.app%2F)](https://vima.netlify.app/)
+[![Website](https://img.shields.io/website?style=for-the-badge&up_message=Blog&url=https%3A%2F%2Fvima.netlify.app%2F)](https://dev.letskhabar.com/post/master-portfolio)
+
 
 
 
@@ -58,6 +62,7 @@
     ```
 [![Master-Portfolio](src/assets/img/mp-web.png)](https://vima.netlify.app/)
 [![Website](https://img.shields.io/website?style=for-the-badge&up_message=Demo&url=https%3A%2F%2Fvima.netlify.app%2F)](https://vima.netlify.app/)
+[![Website](https://img.shields.io/website?style=for-the-badge&up_message=Blog&url=https%3A%2F%2Fvima.netlify.app%2F)](https://dev.letskhabar.com/post/master-portfolio)
 
 
 
