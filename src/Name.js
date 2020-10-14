@@ -36,7 +36,8 @@ const projects = [
         Description: "this is Description",
         Code_Link: "this is code link",
         Live_link: "this is Live link",
-        tool_used: "html,css,js"
+        tool_used: "html,css,js",
+        img: "https://master-portfolio.js.org/src/assets/img/mplogo.png"
     },
     {
         id: "2",
@@ -44,7 +45,8 @@ const projects = [
         Description: "this is Description",
         Code_Link: "this is code link",
         Live_link: "this is Live link",
-        tool_used: "html,css,js"
+        tool_used: "html,css,js",
+        img: "https://master-portfolio.js.org/src/assets/img/mplogo.png"
     },
     {
         id: "3",
@@ -52,7 +54,8 @@ const projects = [
         Description: "this is Description",
         Code_Link: "this is code link",
         Live_link: "this is Live link",
-        tool_used: "html,css,js"
+        tool_used: "html,css,js",
+        img: "https://master-portfolio.js.org/src/assets/img/mplogo.png"
     }
 ]
 

@@ -8,11 +8,14 @@ class Card extends Component {
         const projectlost = projects.map(
             Project=> (
                 <div className="card" key={Project.id}>
+                <img src={Project.img} alt="Project" />
                 <h1>{Project.name}</h1>
                 <p>{Project.Description}</p>
-                <h4>{Project.Live_link}</h4>
-                <h4>{Project.Code_Link}</h4>
-                <p>{Project.tool_used}</p>
+                <code>{Project.tool_used}</code>
+                <div className="icons">
+                <a href={Project.Live_link}><i class="fas fa-globe fa-2x"></i></a>
+                <a href={Project.Code_Link}><i class="fas fa-code fa-2x"></i></a>
+                </div>
                 </div>
 
             )

@@ -21,3 +21,17 @@ img{
 .project :hover{
     scale: 1.05;
 }
+code{
+    background-color: aliceblue;
+    color: green;
+    margin: 10px;
+    padding: 3px;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.fas{
+    color: aliceblue;
+}
