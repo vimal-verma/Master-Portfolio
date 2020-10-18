@@ -11,6 +11,7 @@
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/vimalverma558/Master-portfolio/react)
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/vimalverma558/Master-portfolio/gh-pages)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/vimalverma558/master-portfolio)
+![GitHub contributors](https://img.shields.io/github/contributors/vimalverma558/master-portfolio)
 [![Run on Repl.it](https://repl.it/badge/github/vimalverma558/Master-Portfolio)](https://repl.it/github/vimalverma558/Master-Portfolio)
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/vimalverma558/Master-Portfolio)
@@ -68,9 +69,26 @@
 
 
 # You can Customize it to make your own portfolio by Three Method ✏️
+- [Using gh-pages](#using-gh-pages)
 - [Using Netfify deploy](#using-netlify-deploy)
 - [Using Vercel deploy](#using-vercel-deploy)
-- [Using gh-pages](#using-gh-pages)
+
+![github](src/assets/img/github.png)
+
+## Using gh-pages
+- Click on Use this template ☝️
+- clone `git clone https://github.com/{your github username}/{repository name}`
+- To download required dependencies to your system, navigate to the directory where the cloned repository resides and execute following command: `npm install`
+- change "homepage " to `https://{your github username}.github.io/{repository name}` in `package.json` 
+- Edit `src/Name.js` 
+- You can check it using `npm start`, it will open the website locally on your browser.
+- Commit change and push.
+- Once you are done with your setup and have successfully completed all steps above, 
+- ### Now you have to deploy that portfolio website
+  - You can use Netlify, Vercel & gh-pages
+  - To deploy by gh-pages
+    - Run `npm run deploy` to build and create a branch called `gh-pages`. It will push the build files to that branch.
+    -  🎉 Your Portfolio website is ready.🥳 And live at `https://{your github username}.github.io/{repository name}`.
 
 
 
@@ -128,17 +146,8 @@
 
 
 
-## Using gh-pages
-- Fork or import [this repository](https://github.com/vimalverma558/Master-Portfolio)
-- clone `git clone https://github.com/<your-github-username>/Master-Portfolio`
-- To download required dependencies to your system, navigate to the directory where the cloned repository resides and execute following command: `npm install`
-- change "homepage " to `https://<your-github-username>.github.io/Master-Portfolio` in `package.json` 
-- Edit `src/Name.js` 
-- You can check it using `npm start`, it will open the website locally on your browser.
-- Commit change and push.
-- Once you are done with your setup and have successfully completed all steps above, 
-- Run `npm run deploy` to build and create a branch called `gh-pages`. It will push the build files to that branch.
--  🎉 Your Portfolio website is ready.🥳 And live at `https://<your-github-username>.github.io/Master-Portfolio`.
+## Contributing
+Please see our [contributing.md](./CONTRIBUTING.md).
 
 
 
