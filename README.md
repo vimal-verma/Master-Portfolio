@@ -70,13 +70,13 @@
 
 
 # You can Customize it to make your own portfolio by Three Method ✏️
-- [Using gh-pages](#using-gh-pages)
+- [Using Template](#using-template)
 - [Using Netfify deploy](#using-netlify-deploy)
 - [Using Vercel deploy](#using-vercel-deploy)
 
 ![github](src/assets/img/github.png)
 
-## Using gh-pages
+## Using Template
 - Click on Use this template ☝️
 - clone `git clone https://github.com/{your github username}/{repository name}`
 - To download required dependencies to your system, navigate to the directory where the cloned repository resides and execute following command: `npm install`
