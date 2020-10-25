@@ -2,16 +2,16 @@ import React, { Component } from "react";
 import Nav from '../components/Nav';
 import Footer from '../components/Footer'
 import project from '../assets/img/project.svg'
-import Card from '../components/Card'
-import {projects} from '../Name'
+import Card from '../components/ProjectCard'
+import {ProjectsBio} from '../Name'
 
 class Project extends Component {
     render() {
               // console.log(projects)
-              const projectlost = projects.map(
+              const projectlost = ProjectsBio.map(
                 Project=> (
                     <div key={Project.id}>
-                    <p><span role="img" aria-label="Heart">⚡</span> {Project.name}</p>
+                    <p><span role="img" aria-label="Heart">⚡</span> {Project}</p>
                     </div>
     
                 )
@@ -22,7 +22,6 @@ class Project extends Component {
           <div className="main">
           <div className="text-part" >
           <div className="text">
-            <h1>My Project List</h1>
             <div>{projectlost}</div>
           </div>
           </div>

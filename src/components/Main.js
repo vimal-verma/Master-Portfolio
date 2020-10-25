@@ -5,11 +5,27 @@ import webde from '../assets/img/web-design.svg';
 import Sm from './Sm';
 import DevTool from './DevTool';
 import DesignTool from './DesignTool';
-import { greeting } from '../Name'
+import { greeting,DesignBio,DevBio } from '../Name'
 import './main.css'
 
 class Main extends Component {
     render() {
+      const Devlist = DevBio.map(
+        Dev=> (
+          <div key={Dev.id}>
+          <p><span role="img" aria-label="Heart">⚡</span> {Dev}</p>
+          </div>
+
+      )
+      )
+      const Designlist = DesignBio.map(
+        Design=> (
+          <div key={Design.id}>
+          <p><span role="img" aria-label="Heart">⚡</span> {Design}</p>
+          </div>
+
+      )
+      )
       return (
         <div>
           <div className="main">
@@ -32,9 +48,7 @@ class Main extends Component {
           <div className="text-part">
             <div className="text">
               <h2>Full Stack Development</h2>
-              <p> <span role="img" aria-label="Heart">⚡</span> Building resposive website front end using React-Redux</p>
-              <p> <span role="img" aria-label="Heart">⚡</span> Developing mobile applications using Flutter</p>
-              <p> <span role="img" aria-label="Heart">⚡</span> Creating application backend in Node & Express</p>
+              {Devlist}
               <DevTool />
             </div>
           </div>
@@ -43,9 +57,7 @@ class Main extends Component {
           <div className="text-part">
             <div className="text">
               <h2>Design</h2>
-              <p><span role="img" aria-label="Heart">⚡</span> Designing attractive user interface for mobile and web applications</p>
-              <p><span role="img" aria-label="Heart">⚡</span> Customizing logo designs</p>
-              <p><span role="img" aria-label="Heart">⚡</span> Editing video</p>
+              {Designlist}
               <DesignTool />
             </div>
           </div>

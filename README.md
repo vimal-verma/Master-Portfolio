@@ -162,7 +162,7 @@ Please see our [contributing.md](./CONTRIBUTING.md).
 
 
 ## References 👏🏻
-- Some Design and Implementation Ideas are taken from [ashutosh1919/masterPortfolio](https://github.com/ashutosh1919/masterPortfolio)
-- Mp Logo, art Customized by [Vimal](https://github.com/vimalverma558) and icon by icon8
+- Master-Portfolio logo Design by [Vimal](https://github.com/vimalverma558).
+- Art Customized by [Vimal](https://github.com/vimalverma558) and icon by icon8
 - contributors image Made with [contributors-img](https://contributors-img.web.app).
 - MIT License 

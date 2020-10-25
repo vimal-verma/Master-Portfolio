@@ -3,10 +3,19 @@ import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import education from '../assets/img/clip-work-searches.svg';
 import './education.css';
-import { greeting, about } from '../Name'
+import Card from '../components/CertiCard'
+import { greeting, EducationBio } from '../Name'
 
 class Education extends Component {
     render() {
+      const EduList = EducationBio.map(
+        Edu=> (
+          <div key={Edu.id}>
+          <p><span role="img" aria-label="Heart">⚡</span> {Edu}</p>
+          </div>
+
+      )
+      )
       return (
         <div>
           <Nav/>
@@ -15,12 +24,7 @@ class Education extends Component {
           <div className="text">
             <h1>Hi, I'm {greeting.title}</h1>
             <div className="edu">
-              <h3 className="edu-item1"><span role="img" aria-label="Heart">⚡</span> {about.School}</h3>
-              {/* <p className="edu-item2">10th in 2015</p> */}
-              <h3 className="edu-item1"><span role="img" aria-label="Heart">⚡</span> {about.College}</h3>
-              {/* <p className="edu-item2">12th in 2017</p> */}
-              <h3 className="edu-item1"><span role="img" aria-label="Heart">⚡</span> {about.university}</h3>
-              {/* <p className="edu-item2">CSE ( B.Tech ) From 2018</p> */}
+              {EduList}
             </div>
             <br/>
             <br/>
@@ -30,6 +34,9 @@ class Education extends Component {
             <img src={education} alt="about" />
           </div>
           </div>
+          <br/>
+          <h1>My certificate</h1>
+          <Card />
           <Footer/>
         </div>
       );

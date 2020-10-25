@@ -3,11 +3,19 @@ import Nav from '../components/Nav';
 import Footer from '../components/Footer'
 import Sm from '../components/Sm'
 import contact from '../assets/img/message.svg'
-import { greeting, about } from '../Name'
+import { greeting, ContactBio } from '../Name'
 
 
 class Contact extends Component {
     render() {
+      const Contaclist = ContactBio.map(
+        Contac=> (
+          <div key={Contac.id}>
+          <p><span role="img" aria-label="Heart">⚡</span> {Contac}</p>
+          </div>
+
+      )
+      )
       return (
         <div>
           <Nav/>
@@ -15,9 +23,7 @@ class Contact extends Component {
           <div className="text-part" >
           <div className="text">
           <h1>Hi, I'm {greeting.title}</h1>
-              <p><span role="img" aria-label="Heart">⚡</span> I'm a student pursuing {about.course} in {about.department} <span role="img" aria-label="Heart">🎓</span> from {about.university} <span role="img" aria-label="Heart">⚡🏛️</span></p>
-              <p><span role="img" aria-label="Heart">⚡</span> I am From {about.Home}</p>
-              <p><span role="img" aria-label="Heart">⚡</span> I am available on almost every social media. You can message me</p>
+              {Contaclist}
               <Sm />
             </div>
           </div>

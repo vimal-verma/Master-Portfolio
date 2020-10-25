@@ -5,7 +5,7 @@ import {projects} from '../Name'
 class Card extends Component {
     render() {
         // console.log(projects)
-        const projectlost = projects.map(
+        const projectlist = projects.map(
             Project=> (
                 <div className="card icon-box" key={Project.id}>
                 <img src={Project.img} alt="Project" />
@@ -21,7 +21,7 @@ class Card extends Component {
             )
             )
         return (
-            <div className="project">{projectlost}</div>
+            <div className="project">{projectlist}</div>
         )
     }
 }
