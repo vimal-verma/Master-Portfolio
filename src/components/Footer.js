@@ -4,6 +4,7 @@ import './footer.css'
 
 class Footer extends Component {
     render() {
+      console.log("Theme by Master-Portfolio  https://github.com/vimalverma558/Master-Portfolio")
       return (
         <div className="foot">
           

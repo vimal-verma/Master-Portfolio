@@ -9,7 +9,7 @@ class Nav extends Component {
         <div>
           <header className="header">
             <NavLink to="/" tag={Link} className="logo">
-            <h2>{greeting.title}</h2>
+            <h2>{greeting.logo_name}</h2>
             </NavLink>
             <input className="menu-btn" type="checkbox" id="menu-btn" />
             <label className="menu-icon" htmlFor="menu-btn">
@@ -92,11 +92,11 @@ class Nav extends Component {
   export default Nav;
   const onMouseEnter = (event, color) => {
     const el = event.target;
-    el.style.fontWeight = 'bold';
+    el.style.backgroundColor = "#e6e6e6";
   };
   
   const onMouseOut = (event) => {
     const el = event.target;
-    el.style.fontWeight = 'normal';
+    el.style.backgroundColor = "transparent";
   };
   

@@ -10,7 +10,7 @@ class Project extends Component {
               // console.log(projects)
               const projectlost = ProjectsBio.map(
                 Project=> (
-                    <div key={Project.id}>
+                    <div key={Project}>
                     <p><span role="img" aria-label="Heart">⚡</span> {Project}</p>
                     </div>
     

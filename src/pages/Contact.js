@@ -10,7 +10,7 @@ class Contact extends Component {
     render() {
       const Contaclist = ContactBio.map(
         Contac=> (
-          <div key={Contac.id}>
+          <div key={Contac}>
           <p><span role="img" aria-label="Heart">⚡</span> {Contac}</p>
           </div>
 

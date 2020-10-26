@@ -10,7 +10,7 @@ class Education extends Component {
     render() {
       const EduList = EducationBio.map(
         Edu=> (
-          <div key={Edu.id}>
+          <div key={Edu}>
           <p><span role="img" aria-label="Heart">⚡</span> {Edu}</p>
           </div>
 

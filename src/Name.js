@@ -4,16 +4,51 @@ const greeting = {
     subTitle:
     "I'm a student pursuing {Course} in {department} from {university}. I'm a passionate learner who's always willing to learn and work across technologies and domains. I love to explore new technologies and leverage. Apart from that I also love to guide and mentor newbies. I'm currently into Web Development and working on my MERN Website"
 };
-const socialMedia = {
-    facebook: "Your facebook link",
-    twitter: "Your twitter link",
-    instagram: "Your instagram link",
-    github: "Your github link",
-    gitlab: "Your gitlab link",
-    devto: "Your devto link",
-    mailto: "mailto:Your mail",
-    linkedin: "Your linkedin link"
-};
+const socialMedia = [
+    // fontawesome is fontawesome Class Name of Icon
+    // Don't Forget to add "fa-3x" in fontawesome to increase Size of icons
+    {
+        icon: "facebook",
+        fontawesome: "fab fa-facebook-square  fa-3x",
+        link: "Your facebook link"
+    },
+    {
+        icon: "twitter",
+        fontawesome: "fab fa-twitter fa-3x",
+        link: "Your twitter link"
+    },
+    {
+        icon: "instagram",
+        fontawesome: "fab fa-instagram fa-3x",
+        link: "Your instagram link"
+    },
+    {
+        icon: "github",
+        fontawesome: "fab fa-github fa-3x",
+        link: "Your github link"
+    },
+    {
+        icon: "gitlab",
+        fontawesome: "fab fa-gitlab fa-3x",
+        link: "Your gitlab link"
+    },
+    {
+        icon: "devto",
+        fontawesome: "fab fa-dev fa-3x",
+        link: "Your devto link"
+    },
+    {
+        icon: "linkedin",
+        fontawesome: "fab fa-linkedin fa-3x",
+        link: "Your linkedin link"
+    },
+    {
+        icon: "mailto",
+        fontawesome: "far fa-envelope fa-3x",
+        link: "mailto:Your mail"
+    }
+
+];
 
 const Skill = {
     Html: true,

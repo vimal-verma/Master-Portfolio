@@ -7,7 +7,7 @@
     transform: rotate(10deg);
     scale: 1.2;
 }
-.fa-github, .fa-dev {
+.fa-github, .fa-dev, .fa-github-square , .fa-github-alt {
     color: black;
 }
 .fa-twitter{
@@ -18,4 +18,7 @@
 }
 .fa-gitlab{
     color: #db4128;
+}
+.fa-instagram, .fa-instagram-square{
+    color: #f72e7f;
 }

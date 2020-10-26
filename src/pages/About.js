@@ -9,7 +9,7 @@ class About extends Component {
     render() {
       const Biolist = AboutBio.map(
         bio=> (
-          <div key={bio.id}>
+          <div key={bio}>
           <p><span role="img" aria-label="Heart">⚡</span> {bio}</p>
           </div>
 
