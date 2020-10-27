@@ -50,12 +50,64 @@ const socialMedia = [
 
 ];
 
-const Skill = {
-    Html: true,
-    css: true,
-    js: true,
-    node: false
-}
+const DevSkill = [
+    // fontawesome is fontawesome Class Name of Icon
+    // Don't Forget to add "fa-3x" in fontawesome to increase Size of icons
+    // in fontawesome add class "tool" to change color of icons
+    {
+        icon: "html",
+        fontawesome: "fab fa-html5 tool fa-3x"
+    },
+    {
+        icon: "css",
+        fontawesome: "fab fa-css3-alt tool fa-3x"
+    },
+    {
+        icon: "js",
+        fontawesome: "fab fa-js tool fa-3x"
+    },
+    {
+        icon: "node",
+        fontawesome: "fab fa-node-js tool fa-3x"
+    },
+    {
+        icon: "sass",
+        fontawesome: "fab fa-sass tool fa-3x"
+    },
+    {
+        icon: "react",
+        fontawesome: "fab fa-react tool fa-3x"
+    },
+    {
+        icon: "vue",
+        fontawesome: "fab fa-vuejs tool fa-3x"
+    },
+    {
+        icon: "npm",
+        fontawesome: "fab fa-npm tool fa-3x"
+    },
+    {
+        icon: "github",
+        fontawesome: "fab fa-github tool fa-3x"
+    },
+
+];
+
+const DesignSkill = [
+    // fontawesome is fontawesome Class Name of Icon
+    // Don't Forget to add "fa-3x" in fontawesome to increase Size of icons
+    {
+        icon: "figma",
+        fontawesome: "fab fa-figma tool  fa-3x"
+    },
+    {
+        icon: "figma",
+        fontawesome: "fab fa-figma tool fa-3x"
+    }
+
+];
+
+
 const projects = [
     {
         id: "1",
@@ -110,7 +162,7 @@ const certificate = [
 ];
 
 const DevBio = [
-    'Building resposive website front end using React-Redux',
+    "Building resposive website front end using React-Redux",
     'Developing mobile applications using Flutter',
     'Creating application backend in Node & Express'
 ];
@@ -151,7 +203,8 @@ const ContactBio =[
 export {
     greeting,
     socialMedia,
-    Skill,
+    DevSkill,
+    DesignSkill,
     projects,
     certificate,
     AboutBio,
