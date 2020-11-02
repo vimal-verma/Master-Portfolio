@@ -4,9 +4,20 @@ import Footer from '../components/Footer'
 import DevTool from '../components/DevTool';
 import Designtool from '../components/DesignTool'
 import skills from '../assets/img/skill.svg'
+import Blog from "../components/Blog";
+import {BlogData} from "../Name";
 
 class Skills extends Component {
     render() {
+
+    let ShowBlog;
+    if (BlogData.show_Blog) {
+      ShowBlog = <Blog/>;
+    } else {
+      ShowBlog = ""
+    }
+      
+
       return (
         <div>
           <Nav/>
@@ -23,6 +34,8 @@ class Skills extends Component {
             <img src={skills} alt="Skills" />
           </div>
           </div>
+          <br/>
+          {ShowBlog}
           <br/>
           <Footer/>
         </div>

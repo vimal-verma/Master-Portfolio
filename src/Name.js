@@ -1,9 +1,18 @@
 const greeting = {
     title: "Your Name",
     logo_name: "Name",
+    email: "email id",
     subTitle:
     "I'm a student pursuing {Course} in {department} from {university}. I'm a passionate learner who's always willing to learn and work across technologies and domains. I love to explore new technologies and leverage. Apart from that I also love to guide and mentor newbies. I'm currently into Web Development and working on my MERN Website"
 };
+
+const BlogData = {
+    // this show your dev.to blog in your Portfolio blog
+    show_Blog: true,  // if true it Show your DEV.to article in Blog Section, if false than Blog Section convert to skill Section.
+    devto_username: "vimal"
+};
+
+
 const socialMedia = [
     // fontawesome is fontawesome Class Name of Icon
     // Don't Forget to add "fa-3x" in fontawesome to increase Size of icons
@@ -68,7 +77,7 @@ const DevSkill = [
     },
     {
         icon: "node",
-        fontawesome: "fab fa-node-js tool fa-3x"
+        fontawesome: "fab fa-node tool fa-3x"
     },
     {
         icon: "sass",
@@ -87,8 +96,68 @@ const DevSkill = [
         fontawesome: "fab fa-npm tool fa-3x"
     },
     {
-        icon: "github",
-        fontawesome: "fab fa-github tool fa-3x"
+        icon: "yarn",
+        fontawesome: "fab fa-yarn tool fa-3x"
+    },
+    {
+        icon: "aws",
+        fontawesome: "fab fa-aws tool fa-3x"
+    },
+    {
+        icon: "jenkins",
+        fontawesome: "fab fa-jenkins tool fa-3x"
+    },
+    {
+        icon: "ubuntu",
+        fontawesome: "fab fa-ubuntu tool fa-3x"
+    },
+    {
+        icon: "python",
+        fontawesome: "fab fa-python tool fa-3x"
+    },
+    {
+        icon: "wordpress",
+        fontawesome: "fab fa-wordpress tool fa-3x"
+    },
+    {
+        icon: "rust",
+        fontawesome: "fab fa-rust tool fa-3x"
+    },
+    {
+        icon: "redhat",
+        fontawesome: "fab fa-redhat tool fa-3x"
+    },
+    {
+        icon: "swift",
+        fontawesome: "fab fa-swift tool fa-3x"
+    },
+    {
+        icon: "php",
+        fontawesome: "fab fa-php tool fa-3x"
+    },
+    {
+        icon: "r-project",
+        fontawesome: "fab fa-r-project tool fa-3x"
+    },
+    {
+        icon: "laravel",
+        fontawesome: "fab fa-laravel tool fa-3x"
+    },
+    {
+        icon: "drupal",
+        fontawesome: "fab fa-drupal tool fa-3x"
+    },
+    {
+        icon: "docker",
+        fontawesome: "fab fa-docker tool fa-3x"
+    },
+    {
+        icon: "ios",
+        fontawesome: "fab fa-app-store-ios tool fa-3x"
+    },
+    {
+        icon: "android",
+        fontawesome: "fab fa-android tool fa-3x"
     },
 
 ];
@@ -101,8 +170,16 @@ const DesignSkill = [
         fontawesome: "fab fa-figma tool  fa-3x"
     },
     {
-        icon: "figma",
-        fontawesome: "fab fa-figma tool fa-3x"
+        icon: "sketch",
+        fontawesome: "fab fa-sketch tool fa-3x"
+    },
+    {
+        icon: "unity",
+        fontawesome: "fab fa-unity tool  fa-3x"
+    },
+    {
+        icon: "sketch",
+        fontawesome: "fab fa-sketch tool fa-3x"
     }
 
 ];
@@ -199,7 +276,6 @@ const ContactBio =[
 
 ];
 
-
 export {
     greeting,
     socialMedia,
@@ -212,5 +288,6 @@ export {
     ProjectsBio,
     ContactBio,
     DevBio,
-    DesignBio
+    DesignBio,
+    BlogData
 };

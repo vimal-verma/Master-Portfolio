@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Jungle_Roar';
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/127738/Jungle_Roar_Bold.ttf') format('truetype');
+}
+
+h1, h2{
+  font-family: 'Jungle_Roar';
+}
+
 .App {
   text-align: center;
   background-color: #edf9fe;

@@ -1,10 +1,14 @@
 import React, { Component } from "react";
 import { NavLink,Link } from 'react-router-dom'; 
-import { greeting } from '../Name'
+import { BlogData,greeting } from '../Name'
 import './nav.css'
 
 class Nav extends Component {
     render() {
+      let skill ="Skill";
+      if(BlogData.show_Blog){
+        skill= "Blog"
+      }
       return (
         <div>
           <header className="header">
@@ -68,7 +72,7 @@ class Nav extends Component {
                   onMouseEnter={(event) => onMouseEnter(event)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Skill
+                  {skill}
                 </NavLink>
               </li>
               <li>
