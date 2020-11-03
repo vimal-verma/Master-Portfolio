@@ -23,6 +23,8 @@
 
 # Master-Portfolio
 - A clean, beautiful, responsive and 100% customizable portfolio template for Developers!
+- It can List your all Projects & Certificate
+- it can Also list your All Dev.to articles Using Api (if you have set `BlogData.show_Blog: true` in `src/Name.js`)
 - The website is completely built on `react-js` framework of `javascript`🔥.
 - In this project, there are basically Personal Information that you need to change to customize this to anyone else's portfolio
 - You will find `src/Name.js` file which contains the complete information about the user. The file looks something like below
@@ -32,7 +34,12 @@
         title: "Your Name",
         logo_name: "Name",
         subTitle:
-        "subTitle.",
+       "I'm a student pursuing {Course} in {department} from {university}. I'm a passionate learner who's always willing to learn and work across technologies and domains. I love to explore new technologies and leverage. Apart from that I also love to guide and mentor newbies. I'm currently into Web Development and working on my MERN Website"
+    };
+    const BlogData = {
+        // this show your dev.to blog in your Portfolio blog
+        show_Blog: true,  // if true it Show your DEV.to article in Blog Section, if false than Blog Section(nav) convert to skill Section(nav).
+        devto_username: "vimal"
     };
     const socialMedia = {
         facebook: "Your facebook link",
