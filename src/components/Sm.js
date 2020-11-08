@@ -6,7 +6,7 @@ class Sm extends Component {
     render() {
       const Smlist = socialMedia.map(
         sm=> (
-            <a key={sm.icon} className="sm-item" href={sm.link}><i className={sm.fontawesome}></i></a>
+          <a href={sm.link}><img key={sm.icon} className="sm-item" src={sm.img} alt="Project" /></a>
 
         )
         )

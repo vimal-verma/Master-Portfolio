@@ -1,37 +1,48 @@
 import React, { Component } from "react";
 import Home from '../assets/img/home.svg';
-import webd from '../assets/img/web-dev.svg';
-import webde from '../assets/img/web-design.svg';
 import Sm from './Sm';
-import DevTool from './DevTool';
-import DesignTool from './DesignTool';
-import { greeting,DesignBio,DevBio } from '../Name'
+import { greeting } from '../Name'
 import './main.css'
+import Developer from "./Developer";
+import Designer from "./Designer";
+import Cloud from "./Cloud";
+import Mlai from "./Mlai";
+import Game from "./Game";
+import Data from "./Data";
 
 class Main extends Component {
     render() {
-      const Devlist = DevBio.map(
-        Dev=> (
-          <div key={Dev.id}>
-          <p><span role="img" aria-label="Heart">⚡</span> {Dev}</p>
-          </div>
-
-      )
-      )
-      const Designlist = DesignBio.map(
-        Design=> (
-          <div key={Design.id}>
-          <p><span role="img" aria-label="Heart">⚡</span> {Design}</p>
-          </div>
-
-      )
-      )
+    let Show_dev='';
+    let Show_design='';
+    let Show_cloud='';
+    let Show_data='';
+    let Show_mlai='';
+    let Show_game='';
+    Show_dev='';
+    if (greeting.developer) {
+      Show_dev = <Developer/>;
+    }
+    if (greeting.designer) {
+      Show_design = <Designer/>;
+    }
+    if (greeting.cloud_infra_architecture) {
+      Show_cloud = <Cloud/> ;
+    }
+    if (greeting.data_Science) {
+      Show_data = <Data/>;
+    }
+    if (greeting.ml_ai) {
+      Show_mlai = <Mlai/> ;
+    }
+    if (greeting.gamedev) {
+      Show_game = <Game/>;
+    }
       return (
         <div>
           <div className="main">
           <div className="text-part">
             <div className="text">
-              <h1>Hi, I'm { greeting.title } </h1>
+              <h1>{ greeting.title } </h1>
               <p> { greeting.subTitle } </p>
               <Sm />
             </div>
@@ -41,30 +52,12 @@ class Main extends Component {
           </div>
         </div>
         <h1>What I Do?</h1>
-        <div className="main">
-          <div className="img-part">
-            <img src={webd} alt="clip worl" />
-          </div>
-          <div className="text-part">
-            <div className="text">
-              <h2>Full Stack Development</h2>
-              {Devlist}
-              <DevTool />
-            </div>
-          </div>
-        </div>
-        <div className="main">
-          <div className="text-part">
-            <div className="text">
-              <h2>Design</h2>
-              {Designlist}
-              <DesignTool />
-            </div>
-          </div>
-          <div className="img-part">
-            <img src={webde} alt="clip worl" />
-          </div>
-        </div>
+        {Show_dev}
+        {Show_design}
+        {Show_cloud}
+        {Show_data}
+        {Show_mlai}
+        {Show_game}
         
 
         </div>

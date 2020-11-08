@@ -15,7 +15,7 @@ class Footer extends Component {
           https://github.com/vimalverma558/Master-Portfolio */}
 
 
-          <p>Made with <a href="https://github.com/vimalverma558/Master-Portfolio">Master-Portfolio</a> <span role="img" aria-label="Heart"> ❤️ </span> by { greeting.title } </p>
+          <p>Made with <a href="https://github.com/vimalverma558/Master-Portfolio">Master-Portfolio</a> <span role="img" aria-label="Heart"> ❤️ </span> by { greeting.full_name } </p>
           
         </div>
       );

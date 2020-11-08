@@ -22,7 +22,7 @@ class Contact extends Component {
           <div className="main">
           <div className="text-part" >
           <div className="text">
-          <h1>Hi, I'm {greeting.title}</h1>
+          <h1>{greeting.title}</h1>
               {Contaclist}
               <Sm />
             </div>

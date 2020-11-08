@@ -1,24 +1,8 @@
 .sm-item{
-    width: 40px;
-    margin: 10px;
+    width: 60px;
     
 }
 .sm :hover{
     transform: rotate(10deg);
     scale: 1.2;
-}
-.fa-github, .fa-dev, .fa-github-square , .fa-github-alt {
-    color: black;
-}
-.fa-twitter{
-    color: #1c9cea;
-}
-.fa-linkedin{
-    color: #0078b6;
-}
-.fa-gitlab{
-    color: #db4128;
-}
-.fa-instagram, .fa-instagram-square{
-    color: #f72e7f;
 }

@@ -1,185 +1,261 @@
 const greeting = {
-    title: "Your Name",
+    title: "Hi, I'm Your Name",
     logo_name: "Name",
+    full_name: "your name",
     email: "email id",
     subTitle:
-    "I'm a student pursuing {Course} in {department} from {university}. I'm a passionate learner who's always willing to learn and work across technologies and domains. I love to explore new technologies and leverage. Apart from that I also love to guide and mentor newbies. I'm currently into Web Development and working on my MERN Website"
+    "I'm a student pursuing {Course} in {department} from {university}. I'm a passionate learner who's always willing to learn and work across technologies and domains. I love to explore new technologies and leverage. Apart from that I also love to guide and mentor newbies. I'm currently into Web Development and working on my MERN Website",
+    developer: true,  // if true, Show 'Full Stack Development' section in home page, if false than not show
+    designer: true,  // if true, Show 'designer' section in home page, if false than not show
+    cloud_infra_architecture:true,  // if true, Show 'cloud_infra_architecture' section in home page, if false than not show
+    data_Science: true,  // if true, Show 'data_Science' section in home page, if false than not show
+    ml_ai: true,  // if true, Show 'ml_ai' section in home page, if false than not show
+    gamedev: true,  // if true, Show 'gamedev' section in home page, if false than not show
 };
 
 const BlogData = {
     // this show your dev.to blog in your Portfolio blog
     show_Blog: true,  // if true it Show your DEV.to article in Blog Section, if false than Blog Section convert to skill Section.
-    devto_username: "vimal"
+    devto_username: "vimal",
+    Blog_Bio : [
+        // this is visible in '/blog' section if show_Blog: true, else show in skill section
+        "You can Remove this section in name.js",
+        "Writing blog on Devto",
+        "my main skill is wen dev"
+    ]
 };
 
 
 const socialMedia = [
-    // fontawesome is fontawesome Class Name of Icon
-    // Don't Forget to add "fa-3x" in fontawesome to increase Size of icons
+    // https://logo.letskhabar.com/ all logo list
+    // you can use by changing tool name
     {
         icon: "facebook",
-        fontawesome: "fab fa-facebook-square  fa-3x",
+        img: "https://logo.letskhabar.com/img?tool=facebook0",
         link: "Your facebook link"
     },
     {
         icon: "twitter",
-        fontawesome: "fab fa-twitter fa-3x",
+        img: "https://logo.letskhabar.com/img?tool=twitter",
         link: "Your twitter link"
     },
     {
         icon: "instagram",
-        fontawesome: "fab fa-instagram fa-3x",
+        img: "https://logo.letskhabar.com/img?tool=instagram",
         link: "Your instagram link"
     },
     {
         icon: "github",
-        fontawesome: "fab fa-github fa-3x",
+        img: "https://logo.letskhabar.com/img?tool=github",
         link: "Your github link"
     },
     {
         icon: "gitlab",
-        fontawesome: "fab fa-gitlab fa-3x",
+        img: "https://logo.letskhabar.com/img?tool=gitlab",
         link: "Your gitlab link"
     },
     {
         icon: "devto",
-        fontawesome: "fab fa-dev fa-3x",
+        img: "https://logo.letskhabar.com/img?tool=dev",
         link: "Your devto link"
     },
     {
         icon: "linkedin",
-        fontawesome: "fab fa-linkedin fa-3x",
+        img: "https://logo.letskhabar.com/img?tool=linkedin",
         link: "Your linkedin link"
     },
     {
-        icon: "mailto",
-        fontawesome: "far fa-envelope fa-3x",
+        icon: "mail",
+        img: "https://logo.letskhabar.com/img?tool=mail",
         link: "mailto:Your mail"
     }
 
 ];
 
 const DevSkill = [
-    // fontawesome is fontawesome Class Name of Icon
-    // Don't Forget to add "fa-3x" in fontawesome to increase Size of icons
-    // in fontawesome add class "tool" to change color of icons
+    // https://logo.letskhabar.com/ all logo list
+    // you can use by changing tool name
     {
         icon: "html",
-        fontawesome: "fab fa-html5 tool fa-3x"
+        img: "https://logo.letskhabar.com/img?tool=html"
     },
     {
         icon: "css",
-        fontawesome: "fab fa-css3-alt tool fa-3x"
+        img: "https://logo.letskhabar.com/img?tool=css"
     },
     {
         icon: "js",
-        fontawesome: "fab fa-js tool fa-3x"
+        img: "https://logo.letskhabar.com/img?tool=js"
     },
     {
         icon: "node",
-        fontawesome: "fab fa-node tool fa-3x"
+        img: "https://logo.letskhabar.com/img?tool=node"
     },
     {
         icon: "sass",
-        fontawesome: "fab fa-sass tool fa-3x"
+        img: "https://logo.letskhabar.com/img?tool=sass"
     },
     {
         icon: "react",
-        fontawesome: "fab fa-react tool fa-3x"
+        img: "https://logo.letskhabar.com/img?tool=react"
     },
     {
         icon: "vue",
-        fontawesome: "fab fa-vuejs tool fa-3x"
+        img: "https://logo.letskhabar.com/img?tool=vue"
     },
     {
         icon: "npm",
-        fontawesome: "fab fa-npm tool fa-3x"
+        img: "https://logo.letskhabar.com/img?tool=npm"
     },
     {
         icon: "yarn",
-        fontawesome: "fab fa-yarn tool fa-3x"
+        img: "https://logo.letskhabar.com/img?tool=yarn"
     },
     {
         icon: "aws",
-        fontawesome: "fab fa-aws tool fa-3x"
+        img: "https://logo.letskhabar.com/img?tool=aws"
     },
     {
         icon: "jenkins",
-        fontawesome: "fab fa-jenkins tool fa-3x"
+        img: "https://logo.letskhabar.com/img?tool=jenkins"
     },
     {
         icon: "ubuntu",
-        fontawesome: "fab fa-ubuntu tool fa-3x"
+        img: "https://logo.letskhabar.com/img?tool=ubuntu"
     },
     {
         icon: "python",
-        fontawesome: "fab fa-python tool fa-3x"
+        img: "https://logo.letskhabar.com/img?tool=python"
     },
     {
         icon: "wordpress",
-        fontawesome: "fab fa-wordpress tool fa-3x"
+        img: "https://logo.letskhabar.com/img?tool=wordpress"
     },
     {
         icon: "rust",
-        fontawesome: "fab fa-rust tool fa-3x"
-    },
-    {
-        icon: "redhat",
-        fontawesome: "fab fa-redhat tool fa-3x"
-    },
-    {
-        icon: "swift",
-        fontawesome: "fab fa-swift tool fa-3x"
-    },
-    {
-        icon: "php",
-        fontawesome: "fab fa-php tool fa-3x"
-    },
-    {
-        icon: "r-project",
-        fontawesome: "fab fa-r-project tool fa-3x"
-    },
-    {
-        icon: "laravel",
-        fontawesome: "fab fa-laravel tool fa-3x"
-    },
-    {
-        icon: "drupal",
-        fontawesome: "fab fa-drupal tool fa-3x"
-    },
-    {
-        icon: "docker",
-        fontawesome: "fab fa-docker tool fa-3x"
-    },
-    {
-        icon: "ios",
-        fontawesome: "fab fa-app-store-ios tool fa-3x"
-    },
-    {
-        icon: "android",
-        fontawesome: "fab fa-android tool fa-3x"
-    },
+        img: "https://logo.letskhabar.com/img?tool=rust"
+    }
 
 ];
 
 const DesignSkill = [
-    // fontawesome is fontawesome Class Name of Icon
-    // Don't Forget to add "fa-3x" in fontawesome to increase Size of icons
+    // https://logo.letskhabar.com/ all logo list
+    // you can use by changing tool name
     {
         icon: "figma",
-        fontawesome: "fab fa-figma tool  fa-3x"
+        img: "https://logo.letskhabar.com/img?tool=figma"
     },
     {
         icon: "sketch",
-        fontawesome: "fab fa-sketch tool fa-3x"
+        img: "https://logo.letskhabar.com/img?tool=sketch"
     },
+    {
+        icon: "adobe-ae",
+        img: "https://logo.letskhabar.com/img?tool=adobe-ae"
+    },
+    {
+        icon: "adobe-xd",
+        img: "https://logo.letskhabar.com/img?tool=adobe-xd"
+    },
+    {
+        icon: "adobe-illustrator",
+        img: "https://logo.letskhabar.com/img?tool=adobe-illustrator"
+    },
+    {
+        icon: "adobe-photoshop",
+        img: "https://logo.letskhabar.com/img?tool=adobe-photoshop"
+    },
+    {
+        icon: "adobe-pr",
+        img: "https://logo.letskhabar.com/img?tool=adobe-pr"
+    }
+
+];
+const cloud_infra_architecture_Skill = [
+    // https://logo.letskhabar.com/ all logo list
+    // you can use by changing tool name
+    {
+        icon: "gcp",
+        img: "https://logo.letskhabar.com/img?tool=gcp"
+    },
+    {
+        icon: "aws",
+        img: "https://logo.letskhabar.com/img?tool=aws"
+    },
+    {
+        icon: "azure",
+        img: "https://logo.letskhabar.com/img?tool=azure"
+    },
+    {
+        icon: "kubernetes",
+        img: "https://logo.letskhabar.com/img?tool=kubernetes"
+    },
+    {
+        icon: "travis",
+        img: "https://logo.letskhabar.com/img?tool=travis"
+    },
+    {
+        icon: "linode",
+        img: "https://logo.letskhabar.com/img?tool=linode"
+    },
+    {
+        icon: "oracle",
+        img: "https://logo.letskhabar.com/img?tool=oracle"
+    }
+
+];
+const data_Science_Skill = [
+    // https://logo.letskhabar.com/ all logo list
+    // you can use by changing tool name
+    {
+        icon: "python",
+        img: "https://logo.letskhabar.com/img?tool=python"
+    },
+    {
+        icon: "kaggle",
+        img: "https://logo.letskhabar.com/img?tool=kaggle"
+    },
+    {
+        icon: "tensorflow",
+        img: "https://logo.letskhabar.com/img?tool=tensorflow"
+    },
+    {
+        icon: "jupyter",
+        img: "https://logo.letskhabar.com/img?tool=jupyter"
+    }
+
+];
+const Ml_ai_Skill = [
+    // https://logo.letskhabar.com/ all logo list
+    // you can use by changing tool name
+    {
+        icon: "python",
+        img: "https://logo.letskhabar.com/img?tool=python"
+    },
+    {
+        icon: "tensorflow",
+        img: "https://logo.letskhabar.com/img?tool=tensorflow"
+    },
+    {
+        icon: "arduino",
+        img: "https://logo.letskhabar.com/img?tool=arduino"
+    }
+
+];
+const Gamedev_Skill = [
+    // https://logo.letskhabar.com/ all logo list
+    // you can use by changing tool name
     {
         icon: "unity",
-        fontawesome: "fab fa-unity tool  fa-3x"
+        img: "https://logo.letskhabar.com/img?tool=unity"
     },
     {
-        icon: "sketch",
-        fontawesome: "fab fa-sketch tool fa-3x"
+        icon: "c-programming",
+        img: "https://logo.letskhabar.com/img?tool=c-programming"
+    },
+    {
+        icon: "c-sharp",
+        img: "https://logo.letskhabar.com/img?tool=c-sharp"
     }
 
 ];
@@ -276,6 +352,27 @@ const ContactBio =[
 
 ];
 
+const cloud_infra_architecture_Bio = [
+    "You can Remove this section in name.js",
+    "Experience working on multiple cloud platforms",
+    'Hosting and maintaining websites on virtual machine instances along with integration of databases',
+];
+
+const data_Science_Bio = [
+    "You can Remove this section in name.js",
+    "Developing highly scalable production ready models for various deeplearning and statistical use cases",
+];
+
+const Ml_ai_Bio = [
+    "You can Remove this section in name.js",
+    "Complex quantitative modelling",
+];
+
+const Gamedev_Bio = [
+    "You can Remove this section in name.js",
+    'Bulding game in unity',
+];
+
 export {
     greeting,
     socialMedia,
@@ -289,5 +386,13 @@ export {
     ContactBio,
     DevBio,
     DesignBio,
-    BlogData
+    BlogData,
+    cloud_infra_architecture_Skill,
+    data_Science_Skill,
+    Ml_ai_Skill,
+    Gamedev_Skill,
+    cloud_infra_architecture_Bio,
+    data_Science_Bio,
+    Ml_ai_Bio,
+    Gamedev_Bio
 };

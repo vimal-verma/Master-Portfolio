@@ -22,7 +22,7 @@ class About extends Component {
           <div className="main">
           <div className="text-part" >
           <div className="text">
-              <h1>Hi, I'm {greeting.title}</h1>
+              <h1>{greeting.title}</h1>
               <div>{Biolist}</div>
               <Sm />
             </div>
