@@ -1,6 +1,8 @@
 const greeting = {
     title: "Hi, I'm Your Name",
     logo_name: "Name",
+    logo_img_show: false, // if true than show image(logo) in home page instant of text(logo)
+    logo_img: "https://master-portfolio.js.org/src/assets/img/mplogo.png",
     full_name: "your name",
     email: "email id",
     subTitle:
@@ -315,7 +317,7 @@ const certificate = [
 ];
 
 const DevBio = [
-    "Building resposive website front end using React-Redux",
+    "Building responsive website front end using React-Redux",
     'Developing mobile applications using Flutter',
     'Creating application backend in Node & Express'
 ];

@@ -9,11 +9,17 @@ class Nav extends Component {
       if(BlogData.show_Blog){
         skill= "Blog"
       }
+      let logo = <h2>{greeting.logo_name}</h2>;
+      if(greeting.logo_img_show){
+        logo = <img src={greeting.logo_img} alt={greeting.logo_name} />
+      }
+
+      
       return (
         <div>
           <header className="header">
             <NavLink to="/" tag={Link} className="logo">
-            <h2>{greeting.logo_name}</h2>
+            {logo}
             </NavLink>
             <input className="menu-btn" type="checkbox" id="menu-btn" />
             <label className="menu-icon" htmlFor="menu-btn">
