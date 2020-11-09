@@ -7,11 +7,13 @@ const greeting = {
     email: "email id",
     subTitle:
     "I'm a student pursuing {Course} in {department} from {university}. I'm a passionate learner who's always willing to learn and work across technologies and domains. I love to explore new technologies and leverage. Apart from that I also love to guide and mentor newbies. I'm currently into Web Development and working on my MERN Website",
+    Programming: true,  // if true, Show 'Programming' section in home page, if false than not show
     developer: true,  // if true, Show 'Full Stack Development' section in home page, if false than not show
     designer: true,  // if true, Show 'designer' section in home page, if false than not show
     cloud_infra_architecture:true,  // if true, Show 'cloud_infra_architecture' section in home page, if false than not show
     data_Science: true,  // if true, Show 'data_Science' section in home page, if false than not show
     ml_ai: true,  // if true, Show 'ml_ai' section in home page, if false than not show
+    Robotic: true,  // if true, Show 'Robotic' section in home page, if false than not show
     gamedev: true,  // if true, Show 'gamedev' section in home page, if false than not show
 };
 
@@ -71,6 +73,24 @@ const socialMedia = [
         img: "https://logo.letskhabar.com/img?tool=mail",
         link: "mailto:Your mail"
     }
+
+];
+
+const ProgrammingSkill = [
+    // https://logo.letskhabar.com/ all logo list
+    // you can use by changing tool name
+    {
+        icon: "c-programming",
+        img: "https://logo.letskhabar.com/img?tool=c-programming"
+    },
+    {
+        icon: "java",
+        img: "https://logo.letskhabar.com/img?tool=java"
+    },
+    {
+        icon: "python",
+        img: "https://logo.letskhabar.com/img?tool=python"
+    },
 
 ];
 
@@ -244,6 +264,25 @@ const Ml_ai_Skill = [
     }
 
 ];
+
+const RoboticSkill = [
+    // https://logo.letskhabar.com/ all logo list
+    // you can use by changing tool name
+    {
+        icon: "tensorflow",
+        img: "https://logo.letskhabar.com/img?tool=tensorflow"
+    },
+    {
+        icon: "arduino",
+        img: "https://logo.letskhabar.com/img?tool=arduino"
+    },
+    {
+        icon: "python",
+        img: "https://logo.letskhabar.com/img?tool=python"
+    },
+
+];
+
 const Gamedev_Skill = [
     // https://logo.letskhabar.com/ all logo list
     // you can use by changing tool name
@@ -316,6 +355,11 @@ const certificate = [
     }
 ];
 
+const ProgrammingBio = [
+    "You can Remove this section in name.js",
+    "i know c java and python",
+];
+
 const DevBio = [
     "Building responsive website front end using React-Redux",
     'Developing mobile applications using Flutter',
@@ -370,6 +414,11 @@ const Ml_ai_Bio = [
     "Complex quantitative modelling",
 ];
 
+const RoboticBio = [
+    "You can Remove this section in name.js",
+    "Complex Robotic modelling",
+];
+
 const Gamedev_Bio = [
     "You can Remove this section in name.js",
     'Bulding game in unity',
@@ -389,6 +438,8 @@ export {
     DevBio,
     DesignBio,
     BlogData,
+    ProgrammingSkill,
+    RoboticSkill,
     cloud_infra_architecture_Skill,
     data_Science_Skill,
     Ml_ai_Skill,
@@ -396,5 +447,7 @@ export {
     cloud_infra_architecture_Bio,
     data_Science_Bio,
     Ml_ai_Bio,
-    Gamedev_Bio
+    Gamedev_Bio,
+    ProgrammingBio,
+    RoboticBio
 };

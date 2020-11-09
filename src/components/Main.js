@@ -9,16 +9,22 @@ import Cloud from "./Cloud";
 import Mlai from "./Mlai";
 import Game from "./Game";
 import Data from "./Data";
+import Programmer from "./Programmer";
+import Robotic from "./Robotic";
 
 class Main extends Component {
     render() {
+    let Show_Programmer='';
     let Show_dev='';
     let Show_design='';
     let Show_cloud='';
     let Show_data='';
     let Show_mlai='';
+    let Show_robotic='';
     let Show_game='';
-    Show_dev='';
+    if (greeting.Programming) {
+      Show_Programmer = <Programmer/>;
+    }
     if (greeting.developer) {
       Show_dev = <Developer/>;
     }
@@ -33,6 +39,9 @@ class Main extends Component {
     }
     if (greeting.ml_ai) {
       Show_mlai = <Mlai/> ;
+    }
+    if (greeting.Robotic) {
+      Show_robotic = <Robotic/>;
     }
     if (greeting.gamedev) {
       Show_game = <Game/>;
@@ -52,11 +61,13 @@ class Main extends Component {
           </div>
         </div>
         <h1>What I Do?</h1>
+        {Show_Programmer}
         {Show_dev}
         {Show_design}
         {Show_cloud}
         {Show_data}
         {Show_mlai}
+        {Show_robotic}
         {Show_game}
         
 
