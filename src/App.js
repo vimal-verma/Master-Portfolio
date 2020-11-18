@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect }  from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; 
 import './App.css';
 import Home from './pages/HomeComponent';
@@ -8,9 +8,13 @@ import Projects from './pages/Projects';
 import Skill from './pages/Skills';
 import About from './pages/About';
 import NotFound from './pages/NotFound';
+import { greeting } from './Name';
 
 
 function App() {
+  useEffect(() => {
+    document.title = `${greeting.full_name}'s Portfolio`
+  }, [])
   return (
     <div className="App">
       <Router>

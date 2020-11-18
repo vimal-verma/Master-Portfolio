@@ -103,11 +103,11 @@ const DevSkill = [
     },
     {
         icon: "css",
-        img: "https://logo.letskhabar.com/img?tool=css"
+        img: "https://logo.letskhabar.com/img?tool=css3"
     },
     {
         icon: "js",
-        img: "https://logo.letskhabar.com/img?tool=js"
+        img: "https://logo.letskhabar.com/img?tool=javascript"
     },
     {
         icon: "node",
@@ -123,7 +123,7 @@ const DevSkill = [
     },
     {
         icon: "vue",
-        img: "https://logo.letskhabar.com/img?tool=vue"
+        img: "https://logo.letskhabar.com/img?tool=vue-js"
     },
     {
         icon: "npm",
@@ -132,18 +132,6 @@ const DevSkill = [
     {
         icon: "yarn",
         img: "https://logo.letskhabar.com/img?tool=yarn"
-    },
-    {
-        icon: "aws",
-        img: "https://logo.letskhabar.com/img?tool=aws"
-    },
-    {
-        icon: "jenkins",
-        img: "https://logo.letskhabar.com/img?tool=jenkins"
-    },
-    {
-        icon: "ubuntu",
-        img: "https://logo.letskhabar.com/img?tool=ubuntu"
     },
     {
         icon: "python",
@@ -172,8 +160,8 @@ const DesignSkill = [
         img: "https://logo.letskhabar.com/img?tool=sketch"
     },
     {
-        icon: "adobe-ae",
-        img: "https://logo.letskhabar.com/img?tool=adobe-ae"
+        icon: "adobe-after-effects",
+        img: "https://logo.letskhabar.com/img?tool=adobe-after-effects"
     },
     {
         icon: "adobe-xd",
@@ -188,8 +176,8 @@ const DesignSkill = [
         img: "https://logo.letskhabar.com/img?tool=adobe-photoshop"
     },
     {
-        icon: "adobe-pr",
-        img: "https://logo.letskhabar.com/img?tool=adobe-pr"
+        icon: "adobe-premiere-pro",
+        img: "https://logo.letskhabar.com/img?tool=adobe-premiere-pro"
     }
 
 ];
@@ -198,11 +186,11 @@ const cloud_infra_architecture_Skill = [
     // you can use by changing tool name
     {
         icon: "gcp",
-        img: "https://logo.letskhabar.com/img?tool=gcp"
+        img: "https://logo.letskhabar.com/img?tool=google_cloud"
     },
     {
         icon: "aws",
-        img: "https://logo.letskhabar.com/img?tool=aws"
+        img: "https://logo.letskhabar.com/img?tool=amazon-web-services"
     },
     {
         icon: "azure",
@@ -296,7 +284,7 @@ const Gamedev_Skill = [
     },
     {
         icon: "c-sharp",
-        img: "https://logo.letskhabar.com/img?tool=c-sharp"
+        img: "https://logo.letskhabar.com/img?tool=c-sharp-logo"
     }
 
 ];
@@ -358,6 +346,8 @@ const certificate = [
 const ProgrammingBio = [
     "You can Remove this section in name.js",
     "i know c java and python",
+    'you can edit this text from name.js',
+    "you can change below skill icons from name.js"
 ];
 
 const DevBio = [
@@ -407,21 +397,26 @@ const cloud_infra_architecture_Bio = [
 const data_Science_Bio = [
     "You can Remove this section in name.js",
     "Developing highly scalable production ready models for various deeplearning and statistical use cases",
+    "you can change below skill icons"
 ];
 
 const Ml_ai_Bio = [
     "You can Remove this section in name.js",
     "Complex quantitative modelling",
+    "you can change below skill icons"
 ];
 
 const RoboticBio = [
     "You can Remove this section in name.js",
     "Complex Robotic modelling",
+    'you can edit this text from name.js',
+    "you can change below skill icons from name.js"
 ];
 
 const Gamedev_Bio = [
     "You can Remove this section in name.js",
-    'Bulding game in unity',
+    'you can edit this text from name.js',
+    "you can change below skill icons from name.js"
 ];
 
 export {
