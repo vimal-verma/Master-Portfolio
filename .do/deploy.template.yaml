@@ -4,5 +4,5 @@ spec:
   - environment_slug: node-js
     git:
       branch: main
-      repo_clone_url: https://github.com/vimalverma558/master-portfolio.git?refcode=aaa4b40ae64a
+      repo_clone_url: https://github.com/vimalverma558/master-portfolio.git
     name: master-portfolio
