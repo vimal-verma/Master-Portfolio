@@ -1,8 +1,12 @@
 {
   "name": "master-portfolio",
   "version": "0.1.1",
-  "private": true,
-  "homepage": ".",
+  "description": "A clean, beautiful, responsive and 100% customizable portfolio template for Developers!",
+  "main": "index.js",
+  "scripts": {
+    "Dev": "nodemon index.js",
+    "start": "node index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vimalverma558/master-portfolio.git"
@@ -17,38 +21,11 @@
   "bugs": {
     "url": "https://github.com/vimalverma558/master-portfolio/issues"
   },
+  "homepage": "https://github.com/vimalverma558/Master-Portfolio#readme",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "gh-pages": "^3.1.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3",
-    "react-spring": "^8.0.27"
+    "express": "^4.17.1"
   },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "nodemon": "^2.0.6"
   }
 }
