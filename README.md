@@ -86,7 +86,7 @@
 
 
 
-# How Deploy✏️
+# Deploy to DigitalOcean🌊
 
 [![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/vimalverma558/Master-portfolio/tree/DO_Dev&refcode=aaa4b40ae64a)
 
