@@ -16,6 +16,7 @@
 ![Website](https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fmp.letskhabar.com%2F)
 [![Website](https://img.shields.io/website?style=for-the-badge&up_message=Blog&url=https%3A%2F%2Fvima.netlify.app%2F)](https://dev.letskhabar.com/post/master-portfolio)
 
+[![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/vimalverma558/Master-portfolio/tree/DO_Dev&refcode=aaa4b40ae64a)
 
 
 
