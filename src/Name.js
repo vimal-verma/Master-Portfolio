@@ -2,7 +2,7 @@ const greeting = {
     title: "Hi, I'm Your Name",
     logo_name: "Name",
     logo_img_show: false, // if true than show image(logo) in home page instant of text(logo)
-    logo_img: "https://logo.letskhabar.com/name?name=name",
+    logo_img: "https://logo.vdev.in/name?name=name",
     full_name: "your name",
     email: "email id",
     subTitle:
@@ -31,260 +31,260 @@ const BlogData = {
 
 
 const socialMedia = [
-    // https://logo.letskhabar.com/ all logo list
+    // https://logo.vdev.in/ all logo list
     // you can use by changing tool name
     {
         icon: "facebook",
-        img: "https://logo.letskhabar.com/img?tool=facebook0",
+        img: "https://logo.vdev.in/img?tool=facebook0",
         link: "Your facebook link"
     },
     {
         icon: "twitter",
-        img: "https://logo.letskhabar.com/img?tool=twitter",
+        img: "https://logo.vdev.in/img?tool=twitter",
         link: "Your twitter link"
     },
     {
         icon: "instagram",
-        img: "https://logo.letskhabar.com/img?tool=instagram",
+        img: "https://logo.vdev.in/img?tool=instagram",
         link: "Your instagram link"
     },
     {
         icon: "github",
-        img: "https://logo.letskhabar.com/img?tool=github",
+        img: "https://logo.vdev.in/img?tool=github",
         link: "Your github link"
     },
     {
         icon: "gitlab",
-        img: "https://logo.letskhabar.com/img?tool=gitlab",
+        img: "https://logo.vdev.in/img?tool=gitlab",
         link: "Your gitlab link"
     },
     {
         icon: "devto",
-        img: "https://logo.letskhabar.com/img?tool=dev",
+        img: "https://logo.vdev.in/img?tool=dev",
         link: "Your devto link"
     },
     {
         icon: "linkedin",
-        img: "https://logo.letskhabar.com/img?tool=linkedin",
+        img: "https://logo.vdev.in/img?tool=linkedin",
         link: "Your linkedin link"
     },
     {
         icon: "mail",
-        img: "https://logo.letskhabar.com/img?tool=mail",
+        img: "https://logo.vdev.in/img?tool=mail",
         link: "mailto:Your mail"
     }
 
 ];
 
 const ProgrammingSkill = [
-    // https://logo.letskhabar.com/ all logo list
+    // https://logo.vdev.in/ all logo list
     // you can use by changing tool name
     {
         icon: "c-programming",
-        img: "https://logo.letskhabar.com/img?tool=c-programming"
+        img: "https://logo.vdev.in/img?tool=c-programming"
     },
     {
         icon: "java",
-        img: "https://logo.letskhabar.com/img?tool=java"
+        img: "https://logo.vdev.in/img?tool=java"
     },
     {
         icon: "python",
-        img: "https://logo.letskhabar.com/img?tool=python"
+        img: "https://logo.vdev.in/img?tool=python"
     },
 
 ];
 
 const DevSkill = [
-    // https://logo.letskhabar.com/ all logo list
+    // https://logo.vdev.in/ all logo list
     // you can use by changing tool name
     {
         icon: "html",
-        img: "https://logo.letskhabar.com/img?tool=html"
+        img: "https://logo.vdev.in/img?tool=html"
     },
     {
         icon: "css",
-        img: "https://logo.letskhabar.com/img?tool=css3"
+        img: "https://logo.vdev.in/img?tool=css3"
     },
     {
         icon: "js",
-        img: "https://logo.letskhabar.com/img?tool=javascript"
+        img: "https://logo.vdev.in/img?tool=javascript"
     },
     {
         icon: "node",
-        img: "https://logo.letskhabar.com/img?tool=node"
+        img: "https://logo.vdev.in/img?tool=node"
     },
     {
         icon: "sass",
-        img: "https://logo.letskhabar.com/img?tool=sass"
+        img: "https://logo.vdev.in/img?tool=sass"
     },
     {
         icon: "react",
-        img: "https://logo.letskhabar.com/img?tool=react"
+        img: "https://logo.vdev.in/img?tool=react"
     },
     {
         icon: "vue",
-        img: "https://logo.letskhabar.com/img?tool=vue-js"
+        img: "https://logo.vdev.in/img?tool=vue-js"
     },
     {
         icon: "npm",
-        img: "https://logo.letskhabar.com/img?tool=npm"
+        img: "https://logo.vdev.in/img?tool=npm"
     },
     {
         icon: "yarn",
-        img: "https://logo.letskhabar.com/img?tool=yarn"
+        img: "https://logo.vdev.in/img?tool=yarn"
     },
     {
         icon: "python",
-        img: "https://logo.letskhabar.com/img?tool=python"
+        img: "https://logo.vdev.in/img?tool=python"
     },
     {
         icon: "wordpress",
-        img: "https://logo.letskhabar.com/img?tool=wordpress"
+        img: "https://logo.vdev.in/img?tool=wordpress"
     },
     {
         icon: "rust",
-        img: "https://logo.letskhabar.com/img?tool=rust"
+        img: "https://logo.vdev.in/img?tool=rust"
     }
 
 ];
 
 const DesignSkill = [
-    // https://logo.letskhabar.com/ all logo list
+    // https://logo.vdev.in/ all logo list
     // you can use by changing tool name
     {
         icon: "figma",
-        img: "https://logo.letskhabar.com/img?tool=figma"
+        img: "https://logo.vdev.in/img?tool=figma"
     },
     {
         icon: "sketch",
-        img: "https://logo.letskhabar.com/img?tool=sketch"
+        img: "https://logo.vdev.in/img?tool=sketch"
     },
     {
         icon: "adobe-after-effects",
-        img: "https://logo.letskhabar.com/img?tool=adobe-after-effects"
+        img: "https://logo.vdev.in/img?tool=adobe-after-effects"
     },
     {
         icon: "adobe-xd",
-        img: "https://logo.letskhabar.com/img?tool=adobe-xd"
+        img: "https://logo.vdev.in/img?tool=adobe-xd"
     },
     {
         icon: "adobe-illustrator",
-        img: "https://logo.letskhabar.com/img?tool=adobe-illustrator"
+        img: "https://logo.vdev.in/img?tool=adobe-illustrator"
     },
     {
         icon: "adobe-photoshop",
-        img: "https://logo.letskhabar.com/img?tool=adobe-photoshop"
+        img: "https://logo.vdev.in/img?tool=adobe-photoshop"
     },
     {
         icon: "adobe-premiere-pro",
-        img: "https://logo.letskhabar.com/img?tool=adobe-premiere-pro"
+        img: "https://logo.vdev.in/img?tool=adobe-premiere-pro"
     }
 
 ];
 const cloud_infra_architecture_Skill = [
-    // https://logo.letskhabar.com/ all logo list
+    // https://logo.vdev.in/ all logo list
     // you can use by changing tool name
     {
         icon: "gcp",
-        img: "https://logo.letskhabar.com/img?tool=google_cloud"
+        img: "https://logo.vdev.in/img?tool=google_cloud"
     },
     {
         icon: "aws",
-        img: "https://logo.letskhabar.com/img?tool=amazon-web-services"
+        img: "https://logo.vdev.in/img?tool=amazon-web-services"
     },
     {
         icon: "azure",
-        img: "https://logo.letskhabar.com/img?tool=azure"
+        img: "https://logo.vdev.in/img?tool=azure"
     },
     {
         icon: "kubernetes",
-        img: "https://logo.letskhabar.com/img?tool=kubernetes"
+        img: "https://logo.vdev.in/img?tool=kubernetes"
     },
     {
         icon: "travis",
-        img: "https://logo.letskhabar.com/img?tool=travis"
+        img: "https://logo.vdev.in/img?tool=travis"
     },
     {
         icon: "linode",
-        img: "https://logo.letskhabar.com/img?tool=linode"
+        img: "https://logo.vdev.in/img?tool=linode"
     },
     {
         icon: "oracle",
-        img: "https://logo.letskhabar.com/img?tool=oracle"
+        img: "https://logo.vdev.in/img?tool=oracle"
     }
 
 ];
 const data_Science_Skill = [
-    // https://logo.letskhabar.com/ all logo list
+    // https://logo.vdev.in/ all logo list
     // you can use by changing tool name
     {
         icon: "python",
-        img: "https://logo.letskhabar.com/img?tool=python"
+        img: "https://logo.vdev.in/img?tool=python"
     },
     {
         icon: "kaggle",
-        img: "https://logo.letskhabar.com/img?tool=kaggle"
+        img: "https://logo.vdev.in/img?tool=kaggle"
     },
     {
         icon: "tensorflow",
-        img: "https://logo.letskhabar.com/img?tool=tensorflow"
+        img: "https://logo.vdev.in/img?tool=tensorflow"
     },
     {
         icon: "jupyter",
-        img: "https://logo.letskhabar.com/img?tool=jupyter"
+        img: "https://logo.vdev.in/img?tool=jupyter"
     }
 
 ];
 const Ml_ai_Skill = [
-    // https://logo.letskhabar.com/ all logo list
+    // https://logo.vdev.in/ all logo list
     // you can use by changing tool name
     {
         icon: "python",
-        img: "https://logo.letskhabar.com/img?tool=python"
+        img: "https://logo.vdev.in/img?tool=python"
     },
     {
         icon: "tensorflow",
-        img: "https://logo.letskhabar.com/img?tool=tensorflow"
+        img: "https://logo.vdev.in/img?tool=tensorflow"
     },
     {
         icon: "arduino",
-        img: "https://logo.letskhabar.com/img?tool=arduino"
+        img: "https://logo.vdev.in/img?tool=arduino"
     }
 
 ];
 
 const RoboticSkill = [
-    // https://logo.letskhabar.com/ all logo list
+    // https://logo.vdev.in/ all logo list
     // you can use by changing tool name
     {
         icon: "tensorflow",
-        img: "https://logo.letskhabar.com/img?tool=tensorflow"
+        img: "https://logo.vdev.in/img?tool=tensorflow"
     },
     {
         icon: "arduino",
-        img: "https://logo.letskhabar.com/img?tool=arduino"
+        img: "https://logo.vdev.in/img?tool=arduino"
     },
     {
         icon: "python",
-        img: "https://logo.letskhabar.com/img?tool=python"
+        img: "https://logo.vdev.in/img?tool=python"
     },
 
 ];
 
 const Gamedev_Skill = [
-    // https://logo.letskhabar.com/ all logo list
+    // https://logo.vdev.in/ all logo list
     // you can use by changing tool name
     {
         icon: "unity",
-        img: "https://logo.letskhabar.com/img?tool=unity"
+        img: "https://logo.vdev.in/img?tool=unity"
     },
     {
         icon: "c-programming",
-        img: "https://logo.letskhabar.com/img?tool=c-programming"
+        img: "https://logo.vdev.in/img?tool=c-programming"
     },
     {
         icon: "c-sharp",
-        img: "https://logo.letskhabar.com/img?tool=c-sharp-logo"
+        img: "https://logo.vdev.in/img?tool=c-sharp-logo"
     }
 
 ];
