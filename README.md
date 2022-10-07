@@ -1,20 +1,20 @@
-[![Master-Portfolio](src/assets/img/mplogo.png)](https://github.com/vimalverma558/Master-Portfolio)
+[![Master-Portfolio](src/assets/img/mplogo.png)](https://github.com/vimal-verma/Master-Portfolio)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ff93814b-ada6-4afa-9055-2b35043eb36c/deploy-status)](https://app.netlify.com/sites/vima/deploys)
-[![GitHub forks](https://img.shields.io/github/forks/vimalverma558/Master-Portfolio??style=flat)](https://github.com/vimalverma558/Master-Portfolio/network/members)
-[![GitHub Repo stars](https://img.shields.io/github/stars/vimalverma558/Master-Portfolio??style=flat)](https://github.com/vimalverma558/Master-Portfolio/stargazers)
-[![GitHub](https://img.shields.io/github/license/Vimalverma558/Master-portfolio)](https://github.com/vimalverma558/Master-Portfolio/blob/master/LICENSE)
-![GitHub top language](https://img.shields.io/github/languages/top/vimalverma558/master-portfolio)
-![GitHub repo size](https://img.shields.io/github/repo-size/vimalverma558/master-portfolio)
-[![GitHub issues](https://img.shields.io/github/issues/vimalverma558/Master-portfolio)](https://github.com/vimalverma558/Master-Portfolio/issues)
+[![GitHub forks](https://img.shields.io/github/forks/vimalverma558/Master-Portfolio??style=flat)](https://github.com/vimal-verma/Master-Portfolio/network/members)
+[![GitHub Repo stars](https://img.shields.io/github/stars/vimal-verma/Master-Portfolio??style=flat)](https://github.com/vimalverma558/Master-Portfolio/stargazers)
+[![GitHub](https://img.shields.io/github/license/vimal-verma/Master-portfolio)](https://github.com/vimalverma558/Master-Portfolio/blob/master/LICENSE)
+![GitHub top language](https://img.shields.io/github/languages/top/vimal-verma/master-portfolio)
+![GitHub repo size](https://img.shields.io/github/repo-size/vimal-verma/master-portfolio)
+[![GitHub issues](https://img.shields.io/github/issues/vimal-verma/Master-portfolio)](https://github.com/vimalverma558/Master-Portfolio/issues)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fvima.netlify.app%2F)](https://vima.netlify.app/)
-![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/vimalverma558/Master-portfolio/react)
-![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/vimalverma558/Master-portfolio/gh-pages)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/vimalverma558/master-portfolio)
-![GitHub contributors](https://img.shields.io/github/contributors/vimalverma558/master-portfolio)
-[![Run on Repl.it](https://repl.it/badge/github/vimalverma558/Master-Portfolio)](https://repl.it/github/vimalverma558/Master-Portfolio)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/vimal-verma/Master-portfolio/react)
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/vimal-verma/Master-portfolio/gh-pages)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/vimal-verma/master-portfolio)
+![GitHub contributors](https://img.shields.io/github/contributors/vimal-verma/master-portfolio)
+[![Run on Repl.it](https://repl.it/badge/github/vimal-verma/Master-Portfolio)](https://repl.it/github/vimalverma558/Master-Portfolio)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/vimalverma558/Master-Portfolio)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/vimal-verma/Master-Portfolio)
 [![Website](https://img.shields.io/website?style=for-the-badge&up_message=Demo&url=https%3A%2F%2Fvima.netlify.app%2F)](https://vima.netlify.app/)
 [![Website](https://img.shields.io/website?style=for-the-badge&up_message=Blog&url=https%3A%2F%2Fvima.netlify.app%2F)](https://dev.letskhabar.com/post/master-portfolio)
 
@@ -137,7 +137,7 @@
 
 
 ## Using Vercel deploy
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fvimalverma558%2FMaster-Portfolio)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%vimal-verma%2FMaster-Portfolio)
 - Click on Deploy button ☝️
 - <details>
   <summary>Type a Project name and click on continue</summary>
@@ -174,14 +174,14 @@ Please see our [contributing.md](./CONTRIBUTING.md).
 
 ## Awesome contributors ✨
 
-<a href="https://github.com/vimalverma558/Master-Portfolio/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=vimalverma558/Master-Portfolio" />
+<a href="https://github.com/vimal-verma/Master-Portfolio/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=vimal-verma/Master-Portfolio" />
 </a>
 
 
 
 ## References 👏🏻
-- Master-Portfolio logo Design by [Vimal](https://github.com/vimalverma558).
-- Art Customized by [Vimal](https://github.com/vimalverma558) and icon by icon8
+- Master-Portfolio logo Design by [Vimal](https://github.com/vimal-verma).
+- Art Customized by [Vimal](https://github.com/vimal-verma) and icon by icon8
 - contributors image Made with [contributors-img](https://contributors-img.web.app).
 - MIT License 
